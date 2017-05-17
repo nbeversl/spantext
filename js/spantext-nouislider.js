@@ -1,1 +1,1864 @@
-var _0x2a03=["\x75\x73\x65\x20\x73\x74\x72\x69\x63\x74","\x66\x69\x6C\x74\x65\x72","\x72\x6F\x75\x6E\x64","\x67\x65\x74\x42\x6F\x75\x6E\x64\x69\x6E\x67\x43\x6C\x69\x65\x6E\x74\x52\x65\x63\x74","\x6F\x77\x6E\x65\x72\x44\x6F\x63\x75\x6D\x65\x6E\x74","\x64\x6F\x63\x75\x6D\x65\x6E\x74\x45\x6C\x65\x6D\x65\x6E\x74","\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x74\x65\x73\x74","\x78","\x74\x6F\x70","\x79","\x63\x6C\x69\x65\x6E\x74\x54\x6F\x70","\x6C\x65\x66\x74","\x63\x6C\x69\x65\x6E\x74\x4C\x65\x66\x74","\x6E\x75\x6D\x62\x65\x72","\x70\x6F\x77","\x74\x6F\x46\x69\x78\x65\x64","\x6D\x69\x6E","\x6D\x61\x78","\x69\x73\x41\x72\x72\x61\x79","\x2E","\x73\x70\x6C\x69\x74","\x6C\x65\x6E\x67\x74\x68","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x61\x64\x64","\x63\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x20","\x72\x65\x6D\x6F\x76\x65","\x28\x5E\x7C\x5C\x62\x29","\x7C","\x6A\x6F\x69\x6E","\x28\x5C\x62\x7C\x24\x29","\x67\x69","\x72\x65\x70\x6C\x61\x63\x65","\x63\x6F\x6E\x74\x61\x69\x6E\x73","\x28\x5E\x7C\x20\x29","\x28\x20\x7C\x24\x29","\x70\x61\x67\x65\x58\x4F\x66\x66\x73\x65\x74","\x63\x6F\x6D\x70\x61\x74\x4D\x6F\x64\x65","","\x43\x53\x53\x31\x43\x6F\x6D\x70\x61\x74","\x73\x63\x72\x6F\x6C\x6C\x4C\x65\x66\x74","\x62\x6F\x64\x79","\x70\x61\x67\x65\x59\x4F\x66\x66\x73\x65\x74","\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70","\x73\x74\x6F\x70\x50\x72\x6F\x70\x61\x67\x61\x74\x69\x6F\x6E","\x70\x6F\x69\x6E\x74\x65\x72\x45\x6E\x61\x62\x6C\x65\x64","\x6E\x61\x76\x69\x67\x61\x74\x6F\x72","\x70\x6F\x69\x6E\x74\x65\x72\x64\x6F\x77\x6E","\x70\x6F\x69\x6E\x74\x65\x72\x6D\x6F\x76\x65","\x70\x6F\x69\x6E\x74\x65\x72\x75\x70","\x6D\x73\x50\x6F\x69\x6E\x74\x65\x72\x45\x6E\x61\x62\x6C\x65\x64","\x4D\x53\x50\x6F\x69\x6E\x74\x65\x72\x44\x6F\x77\x6E","\x4D\x53\x50\x6F\x69\x6E\x74\x65\x72\x4D\x6F\x76\x65","\x4D\x53\x50\x6F\x69\x6E\x74\x65\x72\x55\x70","\x6D\x6F\x75\x73\x65\x64\x6F\x77\x6E\x20\x74\x6F\x75\x63\x68\x73\x74\x61\x72\x74","\x6D\x6F\x75\x73\x65\x6D\x6F\x76\x65\x20\x74\x6F\x75\x63\x68\x6D\x6F\x76\x65","\x6D\x6F\x75\x73\x65\x75\x70\x20\x74\x6F\x75\x63\x68\x65\x6E\x64","\x6E\x6F\x55\x69\x2D","\x61\x62\x73","\x73\x6C\x69\x63\x65","\x63\x61\x6C\x6C","\x74\x6F\x53\x74\x72\x69\x6E\x67","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x5B\x6F\x62\x6A\x65\x63\x74\x20\x41\x72\x72\x61\x79\x5D","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x72\x61\x6E\x67\x65\x27\x20\x63\x6F\x6E\x74\x61\x69\x6E\x73\x20\x69\x6E\x76\x61\x6C\x69\x64\x20\x76\x61\x6C\x75\x65\x2E","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x72\x61\x6E\x67\x65\x27\x20\x76\x61\x6C\x75\x65\x20\x69\x73\x6E\x27\x74\x20\x6E\x75\x6D\x65\x72\x69\x63\x2E","\x70\x75\x73\x68","\x78\x50\x63\x74","\x78\x56\x61\x6C","\x78\x53\x74\x65\x70\x73","\x78\x4E\x75\x6D\x53\x74\x65\x70\x73","\x73\x6E\x61\x70","\x64\x69\x72\x65\x63\x74\x69\x6F\x6E","\x68\x61\x73\x4F\x77\x6E\x50\x72\x6F\x70\x65\x72\x74\x79","\x6F\x62\x6A\x65\x63\x74","\x73\x6F\x72\x74","\x67\x65\x74\x4D\x61\x72\x67\x69\x6E","\x74\x6F\x53\x74\x65\x70\x70\x69\x6E\x67","\x66\x72\x6F\x6D\x53\x74\x65\x70\x70\x69\x6E\x67","\x67\x65\x74\x53\x74\x65\x70","\x67\x65\x74\x41\x70\x70\x6C\x69\x63\x61\x62\x6C\x65\x53\x74\x65\x70","\x63\x6F\x6E\x76\x65\x72\x74","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x73\x74\x65\x70\x27\x20\x69\x73\x20\x6E\x6F\x74\x20\x6E\x75\x6D\x65\x72\x69\x63\x2E","\x73\x69\x6E\x67\x6C\x65\x53\x74\x65\x70","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x72\x61\x6E\x67\x65\x27\x20\x69\x73\x20\x6E\x6F\x74\x20\x61\x6E\x20\x6F\x62\x6A\x65\x63\x74\x2E","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x4D\x69\x73\x73\x69\x6E\x67\x20\x27\x6D\x69\x6E\x27\x20\x6F\x72\x20\x27\x6D\x61\x78\x27\x20\x69\x6E\x20\x27\x72\x61\x6E\x67\x65\x27\x2E","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x72\x61\x6E\x67\x65\x27\x20\x27\x6D\x69\x6E\x27\x20\x61\x6E\x64\x20\x27\x6D\x61\x78\x27\x20\x63\x61\x6E\x6E\x6F\x74\x20\x62\x65\x20\x65\x71\x75\x61\x6C\x2E","\x73\x70\x65\x63\x74\x72\x75\x6D","\x64\x69\x72","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x73\x74\x61\x72\x74\x27\x20\x6F\x70\x74\x69\x6F\x6E\x20\x69\x73\x20\x69\x6E\x63\x6F\x72\x72\x65\x63\x74\x2E","\x68\x61\x6E\x64\x6C\x65\x73","\x73\x74\x61\x72\x74","\x62\x6F\x6F\x6C\x65\x61\x6E","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x73\x6E\x61\x70\x27\x20\x6F\x70\x74\x69\x6F\x6E\x20\x6D\x75\x73\x74\x20\x62\x65\x20\x61\x20\x62\x6F\x6F\x6C\x65\x61\x6E\x2E","\x61\x6E\x69\x6D\x61\x74\x65","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x61\x6E\x69\x6D\x61\x74\x65\x27\x20\x6F\x70\x74\x69\x6F\x6E\x20\x6D\x75\x73\x74\x20\x62\x65\x20\x61\x20\x62\x6F\x6F\x6C\x65\x61\x6E\x2E","\x6C\x6F\x77\x65\x72","\x63\x6F\x6E\x6E\x65\x63\x74","\x75\x70\x70\x65\x72","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x63\x6F\x6E\x6E\x65\x63\x74\x27\x20\x6F\x70\x74\x69\x6F\x6E\x20\x64\x6F\x65\x73\x6E\x27\x74\x20\x6D\x61\x74\x63\x68\x20\x68\x61\x6E\x64\x6C\x65\x20\x63\x6F\x75\x6E\x74\x2E","\x6F\x72\x74","\x68\x6F\x72\x69\x7A\x6F\x6E\x74\x61\x6C","\x76\x65\x72\x74\x69\x63\x61\x6C","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x6F\x72\x69\x65\x6E\x74\x61\x74\x69\x6F\x6E\x27\x20\x6F\x70\x74\x69\x6F\x6E\x20\x69\x73\x20\x69\x6E\x76\x61\x6C\x69\x64\x2E","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x6D\x61\x72\x67\x69\x6E\x27\x20\x6F\x70\x74\x69\x6F\x6E\x20\x6D\x75\x73\x74\x20\x62\x65\x20\x6E\x75\x6D\x65\x72\x69\x63\x2E","\x6D\x61\x72\x67\x69\x6E","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x6D\x61\x72\x67\x69\x6E\x27\x20\x6F\x70\x74\x69\x6F\x6E\x20\x69\x73\x20\x6F\x6E\x6C\x79\x20\x73\x75\x70\x70\x6F\x72\x74\x65\x64\x20\x6F\x6E\x20\x6C\x69\x6E\x65\x61\x72\x20\x73\x6C\x69\x64\x65\x72\x73\x2E","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x6C\x69\x6D\x69\x74\x27\x20\x6F\x70\x74\x69\x6F\x6E\x20\x6D\x75\x73\x74\x20\x62\x65\x20\x6E\x75\x6D\x65\x72\x69\x63\x2E","\x6C\x69\x6D\x69\x74","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x6C\x69\x6D\x69\x74\x27\x20\x6F\x70\x74\x69\x6F\x6E\x20\x69\x73\x20\x6F\x6E\x6C\x79\x20\x73\x75\x70\x70\x6F\x72\x74\x65\x64\x20\x6F\x6E\x20\x6C\x69\x6E\x65\x61\x72\x20\x73\x6C\x69\x64\x65\x72\x73\x2E","\x6C\x74\x72","\x72\x74\x6C","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x64\x69\x72\x65\x63\x74\x69\x6F\x6E\x27\x20\x6F\x70\x74\x69\x6F\x6E\x20\x77\x61\x73\x20\x6E\x6F\x74\x20\x72\x65\x63\x6F\x67\x6E\x69\x7A\x65\x64\x2E","\x73\x74\x72\x69\x6E\x67","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x62\x65\x68\x61\x76\x69\x6F\x75\x72\x27\x20\x6D\x75\x73\x74\x20\x62\x65\x20\x61\x20\x73\x74\x72\x69\x6E\x67\x20\x63\x6F\x6E\x74\x61\x69\x6E\x69\x6E\x67\x20\x6F\x70\x74\x69\x6F\x6E\x73\x2E","\x74\x61\x70","\x69\x6E\x64\x65\x78\x4F\x66","\x64\x72\x61\x67","\x66\x69\x78\x65\x64","\x68\x6F\x76\x65\x72","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x64\x72\x61\x67\x27\x20\x62\x65\x68\x61\x76\x69\x6F\x75\x72\x20\x6D\x75\x73\x74\x20\x62\x65\x20\x75\x73\x65\x64\x20\x77\x69\x74\x68\x20\x27\x63\x6F\x6E\x6E\x65\x63\x74\x27\x3A\x20\x74\x72\x75\x65\x2E","\x65\x76\x65\x6E\x74\x73","\x74\x6F\x6F\x6C\x74\x69\x70\x73","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x6D\x75\x73\x74\x20\x70\x61\x73\x73\x20\x61\x20\x66\x6F\x72\x6D\x61\x74\x74\x65\x72\x20\x66\x6F\x72\x20\x61\x6C\x6C\x20\x68\x61\x6E\x64\x6C\x65\x73\x2E","\x74\x6F","\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x74\x6F\x6F\x6C\x74\x69\x70\x73\x27\x20\x6D\x75\x73\x74\x20\x62\x65\x20\x70\x61\x73\x73\x65\x64\x20\x61\x20\x66\x6F\x72\x6D\x61\x74\x74\x65\x72\x20\x6F\x72\x20\x27\x66\x61\x6C\x73\x65\x27\x2E","\x66\x6F\x72\x45\x61\x63\x68","\x66\x6F\x72\x6D\x61\x74","\x66\x72\x6F\x6D","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x66\x6F\x72\x6D\x61\x74\x27\x20\x72\x65\x71\x75\x69\x72\x65\x73\x20\x27\x74\x6F\x27\x20\x61\x6E\x64\x20\x27\x66\x72\x6F\x6D\x27\x20\x6D\x65\x74\x68\x6F\x64\x73\x2E","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27\x63\x73\x73\x50\x72\x65\x66\x69\x78\x27\x20\x6D\x75\x73\x74\x20\x62\x65\x20\x61\x20\x73\x74\x72\x69\x6E\x67\x2E","\x63\x73\x73\x50\x72\x65\x66\x69\x78","\x72","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x3A\x20\x27","\x27\x20\x69\x73\x20\x72\x65\x71\x75\x69\x72\x65\x64\x2E","\x74","\x6B\x65\x79\x73","\x70\x69\x70\x73","\x73\x74\x79\x6C\x65","\x6D\x61\x70","\x74\x61\x72\x67\x65\x74","\x62\x61\x73\x65","\x6F\x72\x69\x67\x69\x6E","\x68\x61\x6E\x64\x6C\x65","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64","\x64\x72\x61\x67\x67\x61\x62\x6C\x65","\x73\x74\x61\x74\x65\x2D\x64\x72\x61\x67","\x73\x74\x61\x74\x65\x2D\x74\x61\x70","\x61\x63\x74\x69\x76\x65","\x73\x74\x61\x63\x6B\x69\x6E\x67","\x74\x6F\x6F\x6C\x74\x69\x70","\x6D\x61\x72\x6B\x65\x72","\x76\x61\x6C\x75\x65","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x74\x6F\x75\x63\x68","\x74\x79\x70\x65","\x6D\x6F\x75\x73\x65","\x70\x6F\x69\x6E\x74\x65\x72","\x4D\x53\x50\x6F\x69\x6E\x74\x65\x72","\x70\x61\x67\x65\x58","\x63\x68\x61\x6E\x67\x65\x64\x54\x6F\x75\x63\x68\x65\x73","\x70\x61\x67\x65\x59","\x63\x6C\x69\x65\x6E\x74\x58","\x63\x6C\x69\x65\x6E\x74\x59","\x70\x61\x67\x65\x4F\x66\x66\x73\x65\x74","\x70\x6F\x69\x6E\x74\x73","\x63\x75\x72\x73\x6F\x72","\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x2D\x6C\x6F\x77\x65\x72","\x2D\x75\x70\x70\x65\x72","\x72\x65\x76\x65\x72\x73\x65","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x66\x69\x72\x73\x74\x43\x68\x69\x6C\x64","\x75\x70\x64\x61\x74\x65","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x72\x61\x6E\x67\x65","\x73\x74\x65\x70\x73","\x63\x6F\x75\x6E\x74","\x70\x6F\x73\x69\x74\x69\x6F\x6E\x73","\x76\x61\x6C\x75\x65\x73","\x75\x6E\x73\x68\x69\x66\x74","\x2D","\x2D\x6E\x6F\x72\x6D\x61\x6C","\x2D\x6C\x61\x72\x67\x65","\x2D\x73\x75\x62","\x63\x6C\x61\x73\x73\x3D\x22","\x22\x20\x73\x74\x79\x6C\x65\x3D\x22","\x3A\x20","\x25\x22","\x3C\x64\x69\x76\x20","\x3E\x3C\x2F\x64\x69\x76\x3E","\x3E","\x3C\x2F\x64\x69\x76\x3E","\x6D\x6F\x64\x65","\x64\x65\x6E\x73\x69\x74\x79","\x73\x74\x65\x70\x70\x65\x64","\x6F\x66\x66\x73\x65\x74","\x57\x69\x64\x74\x68","\x48\x65\x69\x67\x68\x74","\x69\x64","\x64\x69\x73\x61\x62\x6C\x65\x64","\x68\x61\x73\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x62\x75\x74\x74\x6F\x6E\x73","\x63\x61\x6C\x63\x50\x6F\x69\x6E\x74","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x4D\x53\x49\x45\x20\x39","\x61\x70\x70\x56\x65\x72\x73\x69\x6F\x6E","\x62\x75\x74\x74\x6F\x6E\x73\x50\x72\x6F\x70\x65\x72\x74\x79","\x62\x61\x73\x65\x53\x69\x7A\x65","\x73\x6C\x69\x64\x65","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x73\x65\x6C\x65\x63\x74\x73\x74\x61\x72\x74","\x6E\x6F\x55\x69\x4C\x69\x73\x74\x65\x6E\x65\x72","\x72\x65\x6D\x6F\x76\x65\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x6E\x6F\x55\x69\x4C\x69\x73\x74\x65\x6E\x65\x72\x73","\x73\x65\x74","\x63\x68\x61\x6E\x67\x65","\x68\x61\x6E\x64\x6C\x65\x4E\x75\x6D\x62\x65\x72","\x65\x6E\x64","\x6D\x6F\x75\x73\x65\x6F\x75\x74","\x6E\x6F\x64\x65\x4E\x61\x6D\x65","\x48\x54\x4D\x4C","\x72\x65\x6C\x61\x74\x65\x64\x54\x61\x72\x67\x65\x74","\x63\x68\x69\x6C\x64\x72\x65\x6E","\x6D\x6F\x76\x65","\x63\x6F\x6E\x63\x61\x74","\x6D\x6F\x75\x73\x65\x6D\x6F\x76\x65\x20\x4D\x53\x50\x6F\x69\x6E\x74\x65\x72\x4D\x6F\x76\x65\x20\x70\x6F\x69\x6E\x74\x65\x72\x6D\x6F\x76\x65","\x72\x65\x71\x75\x65\x73\x74\x41\x6E\x69\x6D\x61\x74\x69\x6F\x6E\x46\x72\x61\x6D\x65","\x25","\x70\x72\x65\x76\x69\x6F\x75\x73\x53\x69\x62\x6C\x69\x6E\x67","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x73\x74\x65\x70","\x53\x6C\x69\x64\x65\x72\x20\x77\x61\x73\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x69\x6E\x69\x74\x69\x61\x6C\x69\x7A\x65\x64\x2E","\x6E\x6F\x55\x69\x53\x6C\x69\x64\x65\x72\x2E\x63\x72\x65\x61\x74\x65\x20\x72\x65\x71\x75\x69\x72\x65\x73\x20\x61\x20\x73\x69\x6E\x67\x6C\x65\x20\x65\x6C\x65\x6D\x65\x6E\x74\x2E","\x61\x6D\x64","\x65\x78\x70\x6F\x72\x74\x73"];(function(_0xee5dxee){if( typeof define=== _0x2a03[126]&& define[_0x2a03[238]]){define([],_0xee5dxee)}else {if( typeof exports=== _0x2a03[75]){module[_0x2a03[239]]= _0xee5dxee()}else {window[_0x2a03[233]]= _0xee5dxee()}}}(function(){_0x2a03[0];function _0xee5dx1(_0xee5dx2){return _0xee5dx2[_0x2a03[1]](function(_0xee5dx3){return !this[_0xee5dx3]?this[_0xee5dx3]= true:false},{})}function _0xee5dx4(_0xee5dx5,_0xee5dx6){return Math[_0x2a03[2]](_0xee5dx5/ _0xee5dx6)* _0xee5dx6}function _0xee5dx7(_0xee5dx8){var _0xee5dx9=_0xee5dx8[_0x2a03[3]](),_0xee5dxa=_0xee5dx8[_0x2a03[4]],_0xee5dxb=_0xee5dxa[_0x2a03[5]],_0xee5dxc=_0xee5dx1e();if(/webkit.*Chrome.*Mobile/i[_0x2a03[7]](navigator[_0x2a03[6]])){_0xee5dxc[_0x2a03[8]]= 0};return {top:_0xee5dx9[_0x2a03[9]]+ _0xee5dxc[_0x2a03[10]]- _0xee5dxb[_0x2a03[11]],left:_0xee5dx9[_0x2a03[12]]+ _0xee5dxc[_0x2a03[8]]- _0xee5dxb[_0x2a03[13]]}}function _0xee5dxd(_0xee5dx3){return  typeof _0xee5dx3=== _0x2a03[14]&& !isNaN(_0xee5dx3)&& isFinite(_0xee5dx3)}function _0xee5dxe(_0xee5dxf){var _0xee5dx10=Math[_0x2a03[15]](10,7);return Number((Math[_0x2a03[2]](_0xee5dxf* _0xee5dx10)/ _0xee5dx10)[_0x2a03[16]](7))}function _0xee5dx11(_0xee5dx12,_0xee5dx13,_0xee5dx14){_0xee5dx1a(_0xee5dx12,_0xee5dx13);setTimeout(function(){_0xee5dx1c(_0xee5dx12,_0xee5dx13)},_0xee5dx14)}function _0xee5dx15(_0xee5dx3){return Math[_0x2a03[18]](Math[_0x2a03[17]](_0xee5dx3,100),0)}function _0xee5dx16(_0xee5dx3){return Array[_0x2a03[19]](_0xee5dx3)?_0xee5dx3:[_0xee5dx3]}function _0xee5dx17(_0xee5dx18){var _0xee5dx19=_0xee5dx18[_0x2a03[21]](_0x2a03[20]);return _0xee5dx19[_0x2a03[22]]> 1?_0xee5dx19[1][_0x2a03[22]]:0}function _0xee5dx1a(_0xee5dx1b,_0xee5dx13){if(_0xee5dx1b[_0x2a03[23]]){_0xee5dx1b[_0x2a03[23]][_0x2a03[24]](_0xee5dx13)}else {_0xee5dx1b[_0x2a03[25]]+= _0x2a03[26]+ _0xee5dx13}}function _0xee5dx1c(_0xee5dx1b,_0xee5dx13){if(_0xee5dx1b[_0x2a03[23]]){_0xee5dx1b[_0x2a03[23]][_0x2a03[27]](_0xee5dx13)}else {_0xee5dx1b[_0x2a03[25]]= _0xee5dx1b[_0x2a03[25]][_0x2a03[33]]( new RegExp(_0x2a03[28]+ _0xee5dx13[_0x2a03[21]](_0x2a03[26])[_0x2a03[30]](_0x2a03[29])+ _0x2a03[31],_0x2a03[32]),_0x2a03[26])}}function _0xee5dx1d(_0xee5dx1b,_0xee5dx13){if(_0xee5dx1b[_0x2a03[23]]){_0xee5dx1b[_0x2a03[23]][_0x2a03[34]](_0xee5dx13)}else { new RegExp(_0x2a03[35]+ _0xee5dx13+ _0x2a03[36],_0x2a03[32])[_0x2a03[7]](_0xee5dx1b[_0x2a03[25]])}}function _0xee5dx1e(){var _0xee5dx1f=window[_0x2a03[37]]!== undefined,_0xee5dx20=((document[_0x2a03[38]]|| _0x2a03[39])=== _0x2a03[40]),_0xee5dx21=_0xee5dx1f?window[_0x2a03[37]]:_0xee5dx20?document[_0x2a03[5]][_0x2a03[41]]:document[_0x2a03[42]][_0x2a03[41]],_0xee5dx22=_0xee5dx1f?window[_0x2a03[43]]:_0xee5dx20?document[_0x2a03[5]][_0x2a03[44]]:document[_0x2a03[42]][_0x2a03[44]];return {x:_0xee5dx21,y:_0xee5dx22}}function _0xee5dx23(_0xee5dx24){_0xee5dx24[_0x2a03[45]]()}function _0xee5dx25(_0xee5dx26){return function(_0xee5dx13){return _0xee5dx26+ _0xee5dx13}}var _0xee5dx27=window[_0x2a03[47]][_0x2a03[46]]?{start:_0x2a03[48],move:_0x2a03[49],end:_0x2a03[50]}:window[_0x2a03[47]][_0x2a03[51]]?{start:_0x2a03[52],move:_0x2a03[53],end:_0x2a03[54]}:{start:_0x2a03[55],move:_0x2a03[56],end:_0x2a03[57]},_0xee5dx28=_0x2a03[58];function _0xee5dx29(_0xee5dx2a,_0xee5dx2b){return (100/ (_0xee5dx2b- _0xee5dx2a))}function _0xee5dx2c(_0xee5dx2d,_0xee5dx5){return (_0xee5dx5* 100)/ (_0xee5dx2d[1]- _0xee5dx2d[0])}function _0xee5dx2e(_0xee5dx2d,_0xee5dx5){return _0xee5dx2c(_0xee5dx2d,_0xee5dx2d[0]< 0?_0xee5dx5+ Math[_0x2a03[59]](_0xee5dx2d[0]):_0xee5dx5- _0xee5dx2d[0])}function _0xee5dx2f(_0xee5dx2d,_0xee5dx5){return ((_0xee5dx5* (_0xee5dx2d[1]- _0xee5dx2d[0]))/ 100)+ _0xee5dx2d[0]}function _0xee5dx30(_0xee5dx5,_0xee5dx31){var _0xee5dx32=1;while(_0xee5dx5>= _0xee5dx31[_0xee5dx32]){_0xee5dx32+= 1};return _0xee5dx32}function _0xee5dx33(_0xee5dx34,_0xee5dx35,_0xee5dx5){if(_0xee5dx5>= _0xee5dx34[_0x2a03[60]](-1)[0]){return 100};var _0xee5dx32=_0xee5dx30(_0xee5dx5,_0xee5dx34),_0xee5dx36,_0xee5dx37,_0xee5dx2a,_0xee5dx2b;_0xee5dx36= _0xee5dx34[_0xee5dx32- 1];_0xee5dx37= _0xee5dx34[_0xee5dx32];_0xee5dx2a= _0xee5dx35[_0xee5dx32- 1];_0xee5dx2b= _0xee5dx35[_0xee5dx32];return _0xee5dx2a+ (_0xee5dx2e([_0xee5dx36,_0xee5dx37],_0xee5dx5)/ _0xee5dx29(_0xee5dx2a,_0xee5dx2b))}function _0xee5dx38(_0xee5dx34,_0xee5dx35,_0xee5dx5){if(_0xee5dx5>= 100){return _0xee5dx34[_0x2a03[60]](-1)[0]};var _0xee5dx32=_0xee5dx30(_0xee5dx5,_0xee5dx35),_0xee5dx36,_0xee5dx37,_0xee5dx2a,_0xee5dx2b;_0xee5dx36= _0xee5dx34[_0xee5dx32- 1];_0xee5dx37= _0xee5dx34[_0xee5dx32];_0xee5dx2a= _0xee5dx35[_0xee5dx32- 1];_0xee5dx2b= _0xee5dx35[_0xee5dx32];return _0xee5dx2f([_0xee5dx36,_0xee5dx37],(_0xee5dx5- _0xee5dx2a)* _0xee5dx29(_0xee5dx2a,_0xee5dx2b))}function _0xee5dx39(_0xee5dx35,_0xee5dx3a,_0xee5dx3b,_0xee5dx5){if(_0xee5dx5=== 100){return _0xee5dx5};var _0xee5dx32=_0xee5dx30(_0xee5dx5,_0xee5dx35),_0xee5dx3,_0xee5dx3c;if(_0xee5dx3b){_0xee5dx3= _0xee5dx35[_0xee5dx32- 1];_0xee5dx3c= _0xee5dx35[_0xee5dx32];if((_0xee5dx5- _0xee5dx3)> ((_0xee5dx3c- _0xee5dx3)/ 2)){return _0xee5dx3c};return _0xee5dx3};if(!_0xee5dx3a[_0xee5dx32- 1]){return _0xee5dx5};return _0xee5dx35[_0xee5dx32- 1]+ _0xee5dx4(_0xee5dx5- _0xee5dx35[_0xee5dx32- 1],_0xee5dx3a[_0xee5dx32- 1])}function _0xee5dx3d(_0xee5dx3e,_0xee5dx5,_0xee5dx3f){var _0xee5dx40;if( typeof _0xee5dx5=== _0x2a03[14]){_0xee5dx5= [_0xee5dx5]};if(Object[_0x2a03[63]][_0x2a03[62]][_0x2a03[61]](_0xee5dx5)!== _0x2a03[64]){throw  new Error(_0x2a03[65])};if(_0xee5dx3e=== _0x2a03[17]){_0xee5dx40= 0}else {if(_0xee5dx3e=== _0x2a03[18]){_0xee5dx40= 100}else {_0xee5dx40= parseFloat(_0xee5dx3e)}};if(!_0xee5dxd(_0xee5dx40)|| !_0xee5dxd(_0xee5dx5[0])){throw  new Error(_0x2a03[66])};_0xee5dx3f[_0x2a03[68]][_0x2a03[67]](_0xee5dx40);_0xee5dx3f[_0x2a03[69]][_0x2a03[67]](_0xee5dx5[0]);if(!_0xee5dx40){if(!isNaN(_0xee5dx5[1])){_0xee5dx3f[_0x2a03[70]][0]= _0xee5dx5[1]}}else {_0xee5dx3f[_0x2a03[70]][_0x2a03[67]](isNaN(_0xee5dx5[1])?false:_0xee5dx5[1])}}function _0xee5dx41(_0xee5dx42,_0xee5dx43,_0xee5dx3f){if(!_0xee5dx43){return true};_0xee5dx3f[_0x2a03[70]][_0xee5dx42]= _0xee5dx2c([_0xee5dx3f[_0x2a03[69]][_0xee5dx42],_0xee5dx3f[_0x2a03[69]][_0xee5dx42+ 1]],_0xee5dx43)/ _0xee5dx29(_0xee5dx3f[_0x2a03[68]][_0xee5dx42],_0xee5dx3f[_0x2a03[68]][_0xee5dx42+ 1])}function _0xee5dx44(_0xee5dx45,_0xee5dx3b,_0xee5dx46,_0xee5dx47){this[_0x2a03[68]]= [];this[_0x2a03[69]]= [];this[_0x2a03[70]]= [_0xee5dx47|| false];this[_0x2a03[71]]= [false];this[_0x2a03[72]]= _0xee5dx3b;this[_0x2a03[73]]= _0xee5dx46;var _0xee5dx3e,_0xee5dx48=[];for(_0xee5dx3e in _0xee5dx45){if(_0xee5dx45[_0x2a03[74]](_0xee5dx3e)){_0xee5dx48[_0x2a03[67]]([_0xee5dx45[_0xee5dx3e],_0xee5dx3e])}};if(_0xee5dx48[_0x2a03[22]]&&  typeof _0xee5dx48[0][0]=== _0x2a03[75]){_0xee5dx48[_0x2a03[76]](function(_0xee5dx3,_0xee5dx3c){return _0xee5dx3[0][0]- _0xee5dx3c[0][0]})}else {_0xee5dx48[_0x2a03[76]](function(_0xee5dx3,_0xee5dx3c){return _0xee5dx3[0]- _0xee5dx3c[0]})};for(_0xee5dx3e= 0;_0xee5dx3e< _0xee5dx48[_0x2a03[22]];_0xee5dx3e++){_0xee5dx3d(_0xee5dx48[_0xee5dx3e][1],_0xee5dx48[_0xee5dx3e][0],this)};this[_0x2a03[71]]= this[_0x2a03[70]][_0x2a03[60]](0);for(_0xee5dx3e= 0;_0xee5dx3e< this[_0x2a03[71]][_0x2a03[22]];_0xee5dx3e++){_0xee5dx41(_0xee5dx3e,this[_0x2a03[71]][_0xee5dx3e],this)}}_0xee5dx44[_0x2a03[63]][_0x2a03[77]]= function(_0xee5dx5){return this[_0x2a03[68]][_0x2a03[22]]=== 2?_0xee5dx2c(this[_0x2a03[69]],_0xee5dx5):false};_0xee5dx44[_0x2a03[63]][_0x2a03[78]]= function(_0xee5dx5){_0xee5dx5= _0xee5dx33(this[_0x2a03[69]],this[_0x2a03[68]],_0xee5dx5);if(this[_0x2a03[73]]){_0xee5dx5= 100- _0xee5dx5};return _0xee5dx5};_0xee5dx44[_0x2a03[63]][_0x2a03[79]]= function(_0xee5dx5){if(this[_0x2a03[73]]){_0xee5dx5= 100- _0xee5dx5};return _0xee5dxe(_0xee5dx38(this[_0x2a03[69]],this[_0x2a03[68]],_0xee5dx5))};_0xee5dx44[_0x2a03[63]][_0x2a03[80]]= function(_0xee5dx5){if(this[_0x2a03[73]]){_0xee5dx5= 100- _0xee5dx5};_0xee5dx5= _0xee5dx39(this[_0x2a03[68]],this[_0x2a03[70]],this[_0x2a03[72]],_0xee5dx5);if(this[_0x2a03[73]]){_0xee5dx5= 100- _0xee5dx5};return _0xee5dx5};_0xee5dx44[_0x2a03[63]][_0x2a03[81]]= function(_0xee5dx5){var _0xee5dx32=_0xee5dx30(_0xee5dx5,this[_0x2a03[68]]),_0xee5dx7=_0xee5dx5=== 100?2:1;return [this[_0x2a03[71]][_0xee5dx32- 2],this[_0x2a03[69]][_0xee5dx32- _0xee5dx7],this[_0x2a03[71]][_0xee5dx32- _0xee5dx7]]};_0xee5dx44[_0x2a03[63]][_0x2a03[82]]= function(_0xee5dx5){return this[_0x2a03[80]](this[_0x2a03[78]](_0xee5dx5))};var _0xee5dx49={"\x74\x6F":function(_0xee5dx5){return _0xee5dx5!== undefined&& _0xee5dx5[_0x2a03[16]](2)},"\x66\x72\x6F\x6D":Number};function _0xee5dx4a(_0xee5dx4b,_0xee5dx45){if(!_0xee5dxd(_0xee5dx45)){throw  new Error(_0x2a03[83])};_0xee5dx4b[_0x2a03[84]]= _0xee5dx45}function _0xee5dx4c(_0xee5dx4b,_0xee5dx45){if( typeof _0xee5dx45!== _0x2a03[75]|| Array[_0x2a03[19]](_0xee5dx45)){throw  new Error(_0x2a03[85])};if(_0xee5dx45[_0x2a03[17]]=== undefined|| _0xee5dx45[_0x2a03[18]]=== undefined){throw  new Error(_0x2a03[86])};if(_0xee5dx45[_0x2a03[17]]=== _0xee5dx45[_0x2a03[18]]){throw  new Error(_0x2a03[87])};_0xee5dx4b[_0x2a03[88]]=  new _0xee5dx44(_0xee5dx45,_0xee5dx4b[_0x2a03[72]],_0xee5dx4b[_0x2a03[89]],_0xee5dx4b[_0x2a03[84]])}function _0xee5dx4d(_0xee5dx4b,_0xee5dx45){_0xee5dx45= _0xee5dx16(_0xee5dx45);if(!Array[_0x2a03[19]](_0xee5dx45)|| !_0xee5dx45[_0x2a03[22]]|| _0xee5dx45[_0x2a03[22]]> 2){throw  new Error(_0x2a03[90])};_0xee5dx4b[_0x2a03[91]]= _0xee5dx45[_0x2a03[22]];_0xee5dx4b[_0x2a03[92]]= _0xee5dx45}function _0xee5dx4e(_0xee5dx4b,_0xee5dx45){_0xee5dx4b[_0x2a03[72]]= _0xee5dx45;if( typeof _0xee5dx45!== _0x2a03[93]){throw  new Error(_0x2a03[94])}}function _0xee5dx4f(_0xee5dx4b,_0xee5dx45){_0xee5dx4b[_0x2a03[95]]= _0xee5dx45;if( typeof _0xee5dx45!== _0x2a03[93]){throw  new Error(_0x2a03[96])}}function _0xee5dx50(_0xee5dx4b,_0xee5dx45){if(_0xee5dx45=== _0x2a03[97]&& _0xee5dx4b[_0x2a03[91]]=== 1){_0xee5dx4b[_0x2a03[98]]= 1}else {if(_0xee5dx45=== _0x2a03[99]&& _0xee5dx4b[_0x2a03[91]]=== 1){_0xee5dx4b[_0x2a03[98]]= 2}else {if(_0xee5dx45=== true&& _0xee5dx4b[_0x2a03[91]]=== 2){_0xee5dx4b[_0x2a03[98]]= 3}else {if(_0xee5dx45=== false){_0xee5dx4b[_0x2a03[98]]= 0}else {throw  new Error(_0x2a03[100])}}}}}function _0xee5dx51(_0xee5dx4b,_0xee5dx45){switch(_0xee5dx45){case _0x2a03[102]:_0xee5dx4b[_0x2a03[101]]= 0;break;case _0x2a03[103]:_0xee5dx4b[_0x2a03[101]]= 1;break;default:throw  new Error(_0x2a03[104])}}function _0xee5dx52(_0xee5dx4b,_0xee5dx45){if(!_0xee5dxd(_0xee5dx45)){throw  new Error(_0x2a03[105])};_0xee5dx4b[_0x2a03[106]]= _0xee5dx4b[_0x2a03[88]][_0x2a03[77]](_0xee5dx45);if(!_0xee5dx4b[_0x2a03[106]]){throw  new Error(_0x2a03[107])}}function _0xee5dx53(_0xee5dx4b,_0xee5dx45){if(!_0xee5dxd(_0xee5dx45)){throw  new Error(_0x2a03[108])};_0xee5dx4b[_0x2a03[109]]= _0xee5dx4b[_0x2a03[88]][_0x2a03[77]](_0xee5dx45);if(!_0xee5dx4b[_0x2a03[109]]){throw  new Error(_0x2a03[110])}}function _0xee5dx54(_0xee5dx4b,_0xee5dx45){switch(_0xee5dx45){case _0x2a03[111]:_0xee5dx4b[_0x2a03[89]]= 0;break;case _0x2a03[112]:_0xee5dx4b[_0x2a03[89]]= 1;_0xee5dx4b[_0x2a03[98]]= [0,2,1,3][_0xee5dx4b[_0x2a03[98]]];break;default:throw  new Error(_0x2a03[113])}}function _0xee5dx55(_0xee5dx4b,_0xee5dx45){if( typeof _0xee5dx45!== _0x2a03[114]){throw  new Error(_0x2a03[115])};var _0xee5dx56=_0xee5dx45[_0x2a03[117]](_0x2a03[116])>= 0,_0xee5dx57=_0xee5dx45[_0x2a03[117]](_0x2a03[118])>= 0,_0xee5dx58=_0xee5dx45[_0x2a03[117]](_0x2a03[119])>= 0,_0xee5dx3b=_0xee5dx45[_0x2a03[117]](_0x2a03[72])>= 0,_0xee5dx59=_0xee5dx45[_0x2a03[117]](_0x2a03[120])>= 0;if(_0xee5dx57&& !_0xee5dx4b[_0x2a03[98]]){throw  new Error(_0x2a03[121])};_0xee5dx4b[_0x2a03[122]]= {tap:_0xee5dx56|| _0xee5dx3b,drag:_0xee5dx57,fixed:_0xee5dx58,snap:_0xee5dx3b,hover:_0xee5dx59}}function _0xee5dx5a(_0xee5dx4b,_0xee5dx45){var _0xee5dx42;if(_0xee5dx45=== false){return}else {if(_0xee5dx45=== true){_0xee5dx4b[_0x2a03[123]]= [];for(_0xee5dx42= 0;_0xee5dx42< _0xee5dx4b[_0x2a03[91]];_0xee5dx42++){_0xee5dx4b[_0x2a03[123]][_0x2a03[67]](true)}}else {_0xee5dx4b[_0x2a03[123]]= _0xee5dx16(_0xee5dx45);if(_0xee5dx4b[_0x2a03[123]][_0x2a03[22]]!== _0xee5dx4b[_0x2a03[91]]){throw  new Error(_0x2a03[124])};_0xee5dx4b[_0x2a03[123]][_0x2a03[128]](function(_0xee5dx5b){if( typeof _0xee5dx5b!== _0x2a03[93]&& ( typeof _0xee5dx5b!== _0x2a03[75]||  typeof _0xee5dx5b[_0x2a03[125]]!== _0x2a03[126])){throw  new Error(_0x2a03[127])}})}}}function _0xee5dx5c(_0xee5dx4b,_0xee5dx45){_0xee5dx4b[_0x2a03[129]]= _0xee5dx45;if( typeof _0xee5dx45[_0x2a03[125]]=== _0x2a03[126]&&  typeof _0xee5dx45[_0x2a03[130]]=== _0x2a03[126]){return true};throw  new Error(_0x2a03[131])}function _0xee5dx5d(_0xee5dx4b,_0xee5dx45){if(_0xee5dx45!== undefined&&  typeof _0xee5dx45!== _0x2a03[114]){throw  new Error(_0x2a03[132])};_0xee5dx4b[_0x2a03[133]]= _0xee5dx45}function _0xee5dx5e(_0xee5dx5f){var _0xee5dx4b={margin:0,limit:0,animate:true,format:_0xee5dx49},_0xee5dx60;_0xee5dx60= {"\x73\x74\x65\x70":{r:false,t:_0xee5dx4a},"\x73\x74\x61\x72\x74":{r:true,t:_0xee5dx4d},"\x63\x6F\x6E\x6E\x65\x63\x74":{r:true,t:_0xee5dx50},"\x64\x69\x72\x65\x63\x74\x69\x6F\x6E":{r:true,t:_0xee5dx54},"\x73\x6E\x61\x70":{r:false,t:_0xee5dx4e},"\x61\x6E\x69\x6D\x61\x74\x65":{r:false,t:_0xee5dx4f},"\x72\x61\x6E\x67\x65":{r:true,t:_0xee5dx4c},"\x6F\x72\x69\x65\x6E\x74\x61\x74\x69\x6F\x6E":{r:false,t:_0xee5dx51},"\x6D\x61\x72\x67\x69\x6E":{r:false,t:_0xee5dx52},"\x6C\x69\x6D\x69\x74":{r:false,t:_0xee5dx53},"\x62\x65\x68\x61\x76\x69\x6F\x75\x72":{r:true,t:_0xee5dx55},"\x66\x6F\x72\x6D\x61\x74":{r:false,t:_0xee5dx5c},"\x74\x6F\x6F\x6C\x74\x69\x70\x73":{r:false,t:_0xee5dx5a},"\x63\x73\x73\x50\x72\x65\x66\x69\x78":{r:false,t:_0xee5dx5d}};var _0xee5dx61={"\x63\x6F\x6E\x6E\x65\x63\x74":false,"\x64\x69\x72\x65\x63\x74\x69\x6F\x6E":_0x2a03[111],"\x62\x65\x68\x61\x76\x69\x6F\x75\x72":_0x2a03[116],"\x6F\x72\x69\x65\x6E\x74\x61\x74\x69\x6F\x6E":_0x2a03[102]};Object[_0x2a03[138]](_0xee5dx60)[_0x2a03[128]](function(_0xee5dx62){if(_0xee5dx5f[_0xee5dx62]=== undefined&& _0xee5dx61[_0xee5dx62]=== undefined){if(_0xee5dx60[_0xee5dx62][_0x2a03[134]]){throw  new Error(_0x2a03[135]+ _0xee5dx62+ _0x2a03[136])};return true};_0xee5dx60[_0xee5dx62][_0x2a03[137]](_0xee5dx4b,_0xee5dx5f[_0xee5dx62]=== undefined?_0xee5dx61[_0xee5dx62]:_0xee5dx5f[_0xee5dx62])});_0xee5dx4b[_0x2a03[139]]= _0xee5dx5f[_0x2a03[139]];_0xee5dx4b[_0x2a03[140]]= _0xee5dx4b[_0x2a03[101]]?_0x2a03[9]:_0x2a03[12];return _0xee5dx4b}function _0xee5dx63(_0xee5dx64,_0xee5dx5f){var _0xee5dx65=_0xee5dx64,_0xee5dx66=[-1,-1],_0xee5dx67,_0xee5dx68,_0xee5dx69=_0xee5dx5f[_0x2a03[88]],_0xee5dx6a=[],_0xee5dx6b={},_0xee5dx6c;var _0xee5dx6d=[_0x2a03[142],_0x2a03[143],_0x2a03[144],_0x2a03[145],_0x2a03[102],_0x2a03[103],_0x2a03[146],_0x2a03[98],_0x2a03[111],_0x2a03[112],_0x2a03[147],_0x2a03[39],_0x2a03[148],_0x2a03[39],_0x2a03[149],_0x2a03[150],_0x2a03[39],_0x2a03[151],_0x2a03[152],_0x2a03[39],_0x2a03[139],_0x2a03[153],_0x2a03[154]][_0x2a03[141]](_0xee5dx25(_0xee5dx5f[_0x2a03[133]]|| _0xee5dx28));function _0xee5dx6e(_0xee5dx3,_0xee5dx3c,_0xee5dx6f){var _0xee5dx70=_0xee5dx3+ _0xee5dx3c[0],_0xee5dx71=_0xee5dx3+ _0xee5dx3c[1];if(_0xee5dx6f){if(_0xee5dx70< 0){_0xee5dx71+= Math[_0x2a03[59]](_0xee5dx70)};if(_0xee5dx71> 100){_0xee5dx70-= (_0xee5dx71- 100)};return [_0xee5dx15(_0xee5dx70),_0xee5dx15(_0xee5dx71)]};return [_0xee5dx70,_0xee5dx71]}function _0xee5dx72(_0xee5dx24,_0xee5dxc){_0xee5dx24[_0x2a03[155]]();var _0xee5dx73=_0xee5dx24[_0x2a03[157]][_0x2a03[117]](_0x2a03[156])=== 0,_0xee5dx74=_0xee5dx24[_0x2a03[157]][_0x2a03[117]](_0x2a03[158])=== 0,_0xee5dx75=_0xee5dx24[_0x2a03[157]][_0x2a03[117]](_0x2a03[159])=== 0,_0xee5dx21,_0xee5dx22,_0xee5dx76=_0xee5dx24;if(_0xee5dx24[_0x2a03[157]][_0x2a03[117]](_0x2a03[160])=== 0){_0xee5dx75= true};if(_0xee5dx73){_0xee5dx21= _0xee5dx24[_0x2a03[162]][0][_0x2a03[161]];_0xee5dx22= _0xee5dx24[_0x2a03[162]][0][_0x2a03[163]]};_0xee5dxc= _0xee5dxc|| _0xee5dx1e();if(_0xee5dx74|| _0xee5dx75){_0xee5dx21= _0xee5dx24[_0x2a03[164]]+ _0xee5dxc[_0x2a03[8]];_0xee5dx22= _0xee5dx24[_0x2a03[165]]+ _0xee5dxc[_0x2a03[10]]};_0xee5dx76[_0x2a03[166]]= _0xee5dxc;_0xee5dx76[_0x2a03[167]]= [_0xee5dx21,_0xee5dx22];_0xee5dx76[_0x2a03[168]]= _0xee5dx74|| _0xee5dx75;return _0xee5dx76}function _0xee5dx77(_0xee5dx46,_0xee5dx3e){var _0xee5dx78=document[_0x2a03[170]](_0x2a03[169]),_0xee5dx79=document[_0x2a03[170]](_0x2a03[169]),_0xee5dx7a=[_0x2a03[171],_0x2a03[172]];if(_0xee5dx46){_0xee5dx7a[_0x2a03[173]]()};_0xee5dx1a(_0xee5dx79,_0xee5dx6d[3]);_0xee5dx1a(_0xee5dx79,_0xee5dx6d[3]+ _0xee5dx7a[_0xee5dx3e]);_0xee5dx1a(_0xee5dx78,_0xee5dx6d[2]);_0xee5dx78[_0x2a03[174]](_0xee5dx79);return _0xee5dx78}function _0xee5dx7b(_0xee5dx7c,_0xee5dx64,_0xee5dx7d){switch(_0xee5dx7c){case 1:_0xee5dx1a(_0xee5dx64,_0xee5dx6d[7]);_0xee5dx1a(_0xee5dx7d[0],_0xee5dx6d[6]);break;case 3:_0xee5dx1a(_0xee5dx7d[1],_0xee5dx6d[6]);case 2:_0xee5dx1a(_0xee5dx7d[0],_0xee5dx6d[7]);case 0:_0xee5dx1a(_0xee5dx64,_0xee5dx6d[6]);break}}function _0xee5dx7e(_0xee5dx7f,_0xee5dx46,_0xee5dx80){var _0xee5dx3e,_0xee5dx7d=[];for(_0xee5dx3e= 0;_0xee5dx3e< _0xee5dx7f;_0xee5dx3e+= 1){_0xee5dx7d[_0x2a03[67]](_0xee5dx80[_0x2a03[174]](_0xee5dx77(_0xee5dx46,_0xee5dx3e)))};return _0xee5dx7d}function _0xee5dx81(_0xee5dx46,_0xee5dx82,_0xee5dx64){_0xee5dx1a(_0xee5dx64,_0xee5dx6d[0]);_0xee5dx1a(_0xee5dx64,_0xee5dx6d[8+ _0xee5dx46]);_0xee5dx1a(_0xee5dx64,_0xee5dx6d[4+ _0xee5dx82]);var _0xee5dx83=document[_0x2a03[170]](_0x2a03[169]);_0xee5dx1a(_0xee5dx83,_0xee5dx6d[1]);_0xee5dx64[_0x2a03[174]](_0xee5dx83);return _0xee5dx83}function _0xee5dx84(_0xee5dx79,_0xee5dx3e){if(!_0xee5dx5f[_0x2a03[123]][_0xee5dx3e]){return false};var _0xee5dx12=document[_0x2a03[170]](_0x2a03[169]);_0xee5dx12[_0x2a03[25]]= _0xee5dx6d[18];return _0xee5dx79[_0x2a03[175]][_0x2a03[174]](_0xee5dx12)}function _0xee5dx85(){if(_0xee5dx5f[_0x2a03[89]]){_0xee5dx5f[_0x2a03[123]][_0x2a03[173]]()};var _0xee5dx86=_0xee5dx68[_0x2a03[141]](_0xee5dx84);if(_0xee5dx5f[_0x2a03[89]]){_0xee5dx86[_0x2a03[173]]();_0xee5dx5f[_0x2a03[123]][_0x2a03[173]]()};_0xee5dxe1(_0x2a03[176],function(_0xee5dx87,_0xee5dx88,_0xee5dx89){if(_0xee5dx86[_0xee5dx88]){_0xee5dx86[_0xee5dx88][_0x2a03[177]]= _0xee5dx5f[_0x2a03[123]][_0xee5dx88]=== true?_0xee5dx87[_0xee5dx88]:_0xee5dx5f[_0x2a03[123]][_0xee5dx88][_0x2a03[125]](_0xee5dx89[_0xee5dx88])}})}function _0xee5dx8a(_0xee5dx8b,_0xee5dx8c,_0xee5dx8d){if(_0xee5dx8b=== _0x2a03[178]|| _0xee5dx8b=== _0x2a03[179]){return _0xee5dx69[_0x2a03[69]]};if(_0xee5dx8b=== _0x2a03[180]){var _0xee5dx8e=(100/ (_0xee5dx8c- 1)),_0xee5dx8f,_0xee5dx42=0;_0xee5dx8c= [];while((_0xee5dx8f= _0xee5dx42++ * _0xee5dx8e)<= 100){_0xee5dx8c[_0x2a03[67]](_0xee5dx8f)};_0xee5dx8b= _0x2a03[181]};if(_0xee5dx8b=== _0x2a03[181]){return _0xee5dx8c[_0x2a03[141]](function(_0xee5dx5){return _0xee5dx69[_0x2a03[79]](_0xee5dx8d?_0xee5dx69[_0x2a03[80]](_0xee5dx5):_0xee5dx5)})};if(_0xee5dx8b=== _0x2a03[182]){if(_0xee5dx8d){return _0xee5dx8c[_0x2a03[141]](function(_0xee5dx5){return _0xee5dx69[_0x2a03[79]](_0xee5dx69[_0x2a03[80]](_0xee5dx69[_0x2a03[78]](_0xee5dx5)))})};return _0xee5dx8c}}function _0xee5dx90(_0xee5dx91,_0xee5dx8b,_0xee5dx92){function _0xee5dx93(_0xee5dx5,_0xee5dx94){return (_0xee5dx5+ _0xee5dx94)[_0x2a03[16]](7)/ 1}var _0xee5dx95=_0xee5dx69[_0x2a03[73]],_0xee5dx96={},_0xee5dx97=_0xee5dx69[_0x2a03[69]][0],_0xee5dx98=_0xee5dx69[_0x2a03[69]][_0xee5dx69[_0x2a03[69]][_0x2a03[22]]- 1],_0xee5dx99=false,_0xee5dx9a=false,_0xee5dx9b=0;_0xee5dx69[_0x2a03[73]]= 0;_0xee5dx92= _0xee5dx1(_0xee5dx92[_0x2a03[60]]()[_0x2a03[76]](function(_0xee5dx3,_0xee5dx3c){return _0xee5dx3- _0xee5dx3c}));if(_0xee5dx92[0]!== _0xee5dx97){_0xee5dx92[_0x2a03[183]](_0xee5dx97);_0xee5dx99= true};if(_0xee5dx92[_0xee5dx92[_0x2a03[22]]- 1]!== _0xee5dx98){_0xee5dx92[_0x2a03[67]](_0xee5dx98);_0xee5dx9a= true};_0xee5dx92[_0x2a03[128]](function(_0xee5dx9c,_0xee5dx3e){var _0xee5dx9d,_0xee5dx42,_0xee5dx9e,_0xee5dx9f=_0xee5dx9c,_0xee5dxa0=_0xee5dx92[_0xee5dx3e+ 1],_0xee5dxa1,_0xee5dxa2,_0xee5dxa3,_0xee5dxa4,_0xee5dxa5,_0xee5dxa6,_0xee5dxa7;if(_0xee5dx8b=== _0x2a03[179]){_0xee5dx9d= _0xee5dx69[_0x2a03[71]][_0xee5dx3e]};if(!_0xee5dx9d){_0xee5dx9d= _0xee5dxa0- _0xee5dx9f};if(_0xee5dx9f=== false|| _0xee5dxa0=== undefined){return};for(_0xee5dx42= _0xee5dx9f;_0xee5dx42<= _0xee5dxa0;_0xee5dx42= _0xee5dx93(_0xee5dx42,_0xee5dx9d)){_0xee5dxa1= _0xee5dx69[_0x2a03[78]](_0xee5dx42);_0xee5dxa2= _0xee5dxa1- _0xee5dx9b;_0xee5dxa5= _0xee5dxa2/ _0xee5dx91;_0xee5dxa6= Math[_0x2a03[2]](_0xee5dxa5);_0xee5dxa7= _0xee5dxa2/ _0xee5dxa6;for(_0xee5dx9e= 1;_0xee5dx9e<= _0xee5dxa6;_0xee5dx9e+= 1){_0xee5dxa3= _0xee5dx9b+ (_0xee5dx9e* _0xee5dxa7);_0xee5dx96[_0xee5dxa3[_0x2a03[16]](5)]= [_0x2a03[8],0]};_0xee5dxa4= (_0xee5dx92[_0x2a03[117]](_0xee5dx42)>  -1)?1:(_0xee5dx8b=== _0x2a03[179]?2:0);if(!_0xee5dx3e&& _0xee5dx99){_0xee5dxa4= 0};if(!(_0xee5dx42=== _0xee5dxa0&& _0xee5dx9a)){_0xee5dx96[_0xee5dxa1[_0x2a03[16]](5)]= [_0xee5dx42,_0xee5dxa4]};_0xee5dx9b= _0xee5dxa1}});_0xee5dx69[_0x2a03[73]]= _0xee5dx95;return _0xee5dx96}function _0xee5dxa8(_0xee5dx8e,_0xee5dxa9,_0xee5dx5b){var _0xee5dxaa=[_0x2a03[102],_0x2a03[103]][_0xee5dx5f[_0x2a03[101]]],_0xee5dx12=document[_0x2a03[170]](_0x2a03[169]);_0xee5dx1a(_0xee5dx12,_0xee5dx6d[20]);_0xee5dx1a(_0xee5dx12,_0xee5dx6d[20]+ _0x2a03[184]+ _0xee5dxaa);function _0xee5dxab(_0xee5dxa4){return [_0x2a03[185],_0x2a03[186],_0x2a03[187]][_0xee5dxa4]}function _0xee5dxac(_0xee5dx7,_0xee5dxad,_0xee5dx8c){return _0x2a03[188]+ _0xee5dxad+ _0x2a03[26]+ _0xee5dxad+ _0x2a03[184]+ _0xee5dxaa+ _0x2a03[26]+ _0xee5dxad+ _0xee5dxab(_0xee5dx8c[1])+ _0x2a03[189]+ _0xee5dx5f[_0x2a03[140]]+ _0x2a03[190]+ _0xee5dx7+ _0x2a03[191]}function _0xee5dxae(_0xee5dx7,_0xee5dx8c){if(_0xee5dx69[_0x2a03[73]]){_0xee5dx7= 100- _0xee5dx7};_0xee5dx8c[1]= (_0xee5dx8c[1]&& _0xee5dxa9)?_0xee5dxa9(_0xee5dx8c[0],_0xee5dx8c[1]):_0xee5dx8c[1];_0xee5dx12[_0x2a03[177]]+= _0x2a03[192]+ _0xee5dxac(_0xee5dx7,_0xee5dx6d[21],_0xee5dx8c)+ _0x2a03[193];if(_0xee5dx8c[1]){_0xee5dx12[_0x2a03[177]]+= _0x2a03[192]+ _0xee5dxac(_0xee5dx7,_0xee5dx6d[22],_0xee5dx8c)+ _0x2a03[194]+ _0xee5dx5b[_0x2a03[125]](_0xee5dx8c[0])+ _0x2a03[195]}}Object[_0x2a03[138]](_0xee5dx8e)[_0x2a03[128]](function(_0xee5dx3){_0xee5dxae(_0xee5dx3,_0xee5dx8e[_0xee5dx3])});return _0xee5dx12}function _0xee5dxaf(_0xee5dxb0){var _0xee5dx8b=_0xee5dxb0[_0x2a03[196]],_0xee5dx91=_0xee5dxb0[_0x2a03[197]]|| 1,_0xee5dxb1=_0xee5dxb0[_0x2a03[1]]|| false,_0xee5dx8c=_0xee5dxb0[_0x2a03[182]]|| false,_0xee5dx8d=_0xee5dxb0[_0x2a03[198]]|| false,_0xee5dx92=_0xee5dx8a(_0xee5dx8b,_0xee5dx8c,_0xee5dx8d),_0xee5dx8e=_0xee5dx90(_0xee5dx91,_0xee5dx8b,_0xee5dx92),_0xee5dxb2=_0xee5dxb0[_0x2a03[129]]|| {to:Math[_0x2a03[2]]};return _0xee5dx65[_0x2a03[174]](_0xee5dxa8(_0xee5dx8e,_0xee5dxb1,_0xee5dxb2))}function _0xee5dxb3(){return _0xee5dx67[_0x2a03[199]+ [_0x2a03[200],_0x2a03[201]][_0xee5dx5f[_0x2a03[101]]]]}function _0xee5dxb4(_0xee5dx76,_0xee5dxb5,_0xee5dx56){if(_0xee5dxb5!== undefined&& _0xee5dx5f[_0x2a03[91]]!== 1){_0xee5dxb5= Math[_0x2a03[59]](_0xee5dxb5- _0xee5dx5f[_0x2a03[89]])};Object[_0x2a03[138]](_0xee5dx6b)[_0x2a03[128]](function(_0xee5dxb6){var _0xee5dxb7=_0xee5dxb6[_0x2a03[21]](_0x2a03[20])[0];if(_0xee5dx76=== _0xee5dxb7){_0xee5dx6b[_0xee5dxb6][_0x2a03[128]](function(_0xee5dxb8){_0xee5dxb8[_0x2a03[61]](_0xee5dx6c,_0xee5dx16(_0xee5dxd9()),_0xee5dxb5,_0xee5dx16(_0xee5dxb9(Array[_0x2a03[63]][_0x2a03[60]][_0x2a03[61]](_0xee5dx6a))),_0xee5dx56|| false,_0xee5dx76,_0xee5dx64[_0x2a03[202]])})}})}function _0xee5dxb9(_0xee5dx8c){if(_0xee5dx8c[_0x2a03[22]]=== 1){return _0xee5dx8c[0]};if(_0xee5dx5f[_0x2a03[89]]){return _0xee5dx8c[_0x2a03[173]]()};return _0xee5dx8c}function _0xee5dxba(_0xee5dxbb,_0xee5dx12,_0xee5dxb8,_0xee5dxbc){var _0xee5dxbd=function(_0xee5dx24){if(_0xee5dx65[_0x2a03[204]](_0x2a03[203])){return false};if(_0xee5dx1d(_0xee5dx65,_0xee5dx6d[14])){return false};_0xee5dx24= _0xee5dx72(_0xee5dx24,_0xee5dxbc[_0x2a03[166]]);if(_0xee5dxbb=== _0xee5dx27[_0x2a03[92]]&& _0xee5dx24[_0x2a03[205]]!== undefined&& _0xee5dx24[_0x2a03[205]]> 1){return false};if(_0xee5dxbc[_0x2a03[120]]&& _0xee5dx24[_0x2a03[205]]){return false};_0xee5dx24[_0x2a03[206]]= _0xee5dx24[_0x2a03[167]][_0xee5dx5f[_0x2a03[101]]];_0xee5dxb8(_0xee5dx24,_0xee5dxbc)},_0xee5dxbe=[];_0xee5dxbb[_0x2a03[21]](_0x2a03[26])[_0x2a03[128]](function(_0xee5dxbf){_0xee5dx12[_0x2a03[207]](_0xee5dxbf,_0xee5dxbd,false);_0xee5dxbe[_0x2a03[67]]([_0xee5dxbf,_0xee5dxbd])});return _0xee5dxbe}function _0xee5dxc0(_0xee5dx76,_0xee5dxbc){if(navigator[_0x2a03[209]][_0x2a03[117]](_0x2a03[208])=== -1&& _0xee5dx76[_0x2a03[205]]=== 0&& _0xee5dxbc[_0x2a03[210]]!== 0){return _0xee5dxc4(_0xee5dx76,_0xee5dxbc)};var _0xee5dx7d=_0xee5dxbc[_0x2a03[91]]|| _0xee5dx68,_0xee5dxc1,_0xee5dxc2=false,_0xee5dxc3=((_0xee5dx76[_0x2a03[206]]- _0xee5dxbc[_0x2a03[92]])* 100)/ _0xee5dxbc[_0x2a03[211]],_0xee5dxb5=_0xee5dx7d[0]=== _0xee5dx68[0]?0:1,_0xee5dx42;_0xee5dxc1= _0xee5dx6e(_0xee5dxc3,_0xee5dxbc[_0x2a03[181]],_0xee5dx7d[_0x2a03[22]]> 1);_0xee5dxc2= _0xee5dxce(_0xee5dx7d[0],_0xee5dxc1[_0xee5dxb5],_0xee5dx7d[_0x2a03[22]]=== 1);if(_0xee5dx7d[_0x2a03[22]]> 1){_0xee5dxc2= _0xee5dxce(_0xee5dx7d[1],_0xee5dxc1[_0xee5dxb5?0:1],false)|| _0xee5dxc2;if(_0xee5dxc2){for(_0xee5dx42= 0;_0xee5dx42< _0xee5dxbc[_0x2a03[91]][_0x2a03[22]];_0xee5dx42++){_0xee5dxb4(_0x2a03[212],_0xee5dx42)}}}else {if(_0xee5dxc2){_0xee5dxb4(_0x2a03[212],_0xee5dxb5)}}}function _0xee5dxc4(_0xee5dx76,_0xee5dxbc){var _0xee5dxc5=_0xee5dx67[_0x2a03[213]](_0x2a03[20]+ _0xee5dx6d[15]),_0xee5dxb5=_0xee5dxbc[_0x2a03[91]][0]=== _0xee5dx68[0]?0:1;if(_0xee5dxc5!== null){_0xee5dx1c(_0xee5dxc5,_0xee5dx6d[15])};if(_0xee5dx76[_0x2a03[168]]){document[_0x2a03[42]][_0x2a03[140]][_0x2a03[168]]= _0x2a03[39];document[_0x2a03[42]][_0x2a03[216]](_0x2a03[214],document[_0x2a03[42]][_0x2a03[215]])};var _0xee5dx71=document[_0x2a03[5]];_0xee5dx71[_0x2a03[217]][_0x2a03[128]](function(_0xee5dx70){_0xee5dx71[_0x2a03[216]](_0xee5dx70[0],_0xee5dx70[1])});_0xee5dx1c(_0xee5dx65,_0xee5dx6d[12]);_0xee5dxb4(_0x2a03[218],_0xee5dxb5);_0xee5dxb4(_0x2a03[219],_0xee5dxb5);if(_0xee5dxbc[_0x2a03[220]]!== undefined){_0xee5dxb4(_0x2a03[221],_0xee5dxbc[_0x2a03[220]])}}function _0xee5dxc6(_0xee5dx76,_0xee5dxbc){if(_0xee5dx76[_0x2a03[157]]=== _0x2a03[222]&& _0xee5dx76[_0x2a03[142]][_0x2a03[223]]=== _0x2a03[224]&& _0xee5dx76[_0x2a03[225]]=== null){_0xee5dxc4(_0xee5dx76,_0xee5dxbc)}}function _0xee5dxc7(_0xee5dx76,_0xee5dxbc){var _0xee5dx71=document[_0x2a03[5]];if(_0xee5dxbc[_0x2a03[91]][_0x2a03[22]]=== 1){_0xee5dx1a(_0xee5dxbc[_0x2a03[91]][0][_0x2a03[226]][0],_0xee5dx6d[15]);if(_0xee5dxbc[_0x2a03[91]][0][_0x2a03[204]](_0x2a03[203])){return false}};_0xee5dx76[_0x2a03[155]]();_0xee5dx76[_0x2a03[45]]();var _0xee5dxc8=_0xee5dxba(_0xee5dx27[_0x2a03[227]],_0xee5dx71,_0xee5dxc0,{start:_0xee5dx76[_0x2a03[206]],baseSize:_0xee5dxb3(),pageOffset:_0xee5dx76[_0x2a03[166]],handles:_0xee5dxbc[_0x2a03[91]],handleNumber:_0xee5dxbc[_0x2a03[220]],buttonsProperty:_0xee5dx76[_0x2a03[205]],positions:[_0xee5dx66[0],_0xee5dx66[_0xee5dx68[_0x2a03[22]]- 1]]}),_0xee5dxc9=_0xee5dxba(_0xee5dx27[_0x2a03[221]],_0xee5dx71,_0xee5dxc4,{handles:_0xee5dxbc[_0x2a03[91]],handleNumber:_0xee5dxbc[_0x2a03[220]]});var _0xee5dxca=_0xee5dxba(_0x2a03[222],_0xee5dx71,_0xee5dxc6,{handles:_0xee5dxbc[_0x2a03[91]],handleNumber:_0xee5dxbc[_0x2a03[220]]});_0xee5dx71[_0x2a03[217]]= _0xee5dxc8[_0x2a03[228]](_0xee5dxc9,_0xee5dxca);if(_0xee5dx76[_0x2a03[168]]){document[_0x2a03[42]][_0x2a03[140]][_0x2a03[168]]= getComputedStyle(_0xee5dx76[_0x2a03[142]])[_0x2a03[168]];if(_0xee5dx68[_0x2a03[22]]> 1){_0xee5dx1a(_0xee5dx65,_0xee5dx6d[12])};var _0xee5dx87=function(){return false};document[_0x2a03[42]][_0x2a03[215]]= _0xee5dx87;document[_0x2a03[42]][_0x2a03[207]](_0x2a03[214],_0xee5dx87,false)};if(_0xee5dxbc[_0x2a03[220]]!== undefined){_0xee5dxb4(_0x2a03[92],_0xee5dxbc[_0x2a03[220]])}}function _0xee5dx56(_0xee5dx76){var _0xee5dxcb=_0xee5dx76[_0x2a03[206]],_0xee5dxcc=0,_0xee5dxb5,_0xee5dx6;_0xee5dx76[_0x2a03[45]]();_0xee5dx68[_0x2a03[128]](function(_0xee5dx3){_0xee5dxcc+= _0xee5dx7(_0xee5dx3)[_0xee5dx5f[_0x2a03[140]]]});_0xee5dxb5= (_0xee5dxcb< _0xee5dxcc/ 2|| _0xee5dx68[_0x2a03[22]]=== 1)?0:1;_0xee5dxcb-= _0xee5dx7(_0xee5dx67)[_0xee5dx5f[_0x2a03[140]]];_0xee5dx6= (_0xee5dxcb* 100)/ _0xee5dxb3();if(!_0xee5dx5f[_0x2a03[122]][_0x2a03[72]]){_0xee5dx11(_0xee5dx65,_0xee5dx6d[14],300)};if(_0xee5dx68[_0xee5dxb5][_0x2a03[204]](_0x2a03[203])){return false};_0xee5dxce(_0xee5dx68[_0xee5dxb5],_0xee5dx6);_0xee5dxb4(_0x2a03[212],_0xee5dxb5,true);_0xee5dxb4(_0x2a03[218],_0xee5dxb5,true);_0xee5dxb4(_0x2a03[219],_0xee5dxb5,true);if(_0xee5dx5f[_0x2a03[122]][_0x2a03[72]]){_0xee5dxc7(_0xee5dx76,{handles:[_0xee5dx68[_0xee5dxb5]]})}}function _0xee5dx59(_0xee5dx76){var _0xee5dxcb=_0xee5dx76[_0x2a03[206]]- _0xee5dx7(_0xee5dx67)[_0xee5dx5f[_0x2a03[140]]],_0xee5dx6=_0xee5dx69[_0x2a03[80]]((_0xee5dxcb* 100)/ _0xee5dxb3()),_0xee5dx5=_0xee5dx69[_0x2a03[79]](_0xee5dx6);Object[_0x2a03[138]](_0xee5dx6b)[_0x2a03[128]](function(_0xee5dxb6){if(_0x2a03[120]=== _0xee5dxb6[_0x2a03[21]](_0x2a03[20])[0]){_0xee5dx6b[_0xee5dxb6][_0x2a03[128]](function(_0xee5dxb8){_0xee5dxb8[_0x2a03[61]](_0xee5dx6c,_0xee5dx5)})}})}function _0xee5dxbb(_0xee5dxcd){var _0xee5dx42,_0xee5dx57;if(!_0xee5dxcd[_0x2a03[119]]){for(_0xee5dx42= 0;_0xee5dx42< _0xee5dx68[_0x2a03[22]];_0xee5dx42+= 1){_0xee5dxba(_0xee5dx27[_0x2a03[92]],_0xee5dx68[_0xee5dx42][_0x2a03[226]][0],_0xee5dxc7,{handles:[_0xee5dx68[_0xee5dx42]],handleNumber:_0xee5dx42})}};if(_0xee5dxcd[_0x2a03[116]]){_0xee5dxba(_0xee5dx27[_0x2a03[92]],_0xee5dx67,_0xee5dx56,{handles:_0xee5dx68})};if(_0xee5dxcd[_0x2a03[120]]){_0xee5dxba(_0xee5dx27[_0x2a03[227]],_0xee5dx67,_0xee5dx59,{hover:true});for(_0xee5dx42= 0;_0xee5dx42< _0xee5dx68[_0x2a03[22]];_0xee5dx42+= 1){[_0x2a03[229]][_0x2a03[128]](function(_0xee5dxbf){_0xee5dx68[_0xee5dx42][_0x2a03[226]][0][_0x2a03[207]](_0xee5dxbf,_0xee5dx23,false)})}};if(_0xee5dxcd[_0x2a03[118]]){_0xee5dx57= [_0xee5dx67[_0x2a03[213]](_0x2a03[20]+ _0xee5dx6d[7])];_0xee5dx1a(_0xee5dx57[0],_0xee5dx6d[10]);if(_0xee5dxcd[_0x2a03[119]]){_0xee5dx57[_0x2a03[67]](_0xee5dx68[(_0xee5dx57[0]=== _0xee5dx68[0]?1:0)][_0x2a03[226]][0])};_0xee5dx57[_0x2a03[128]](function(_0xee5dx12){_0xee5dxba(_0xee5dx27[_0x2a03[92]],_0xee5dx12,_0xee5dxc7,{handles:_0xee5dx68})})}}function _0xee5dxce(_0xee5dx79,_0xee5dx6,_0xee5dxcf){var _0xee5dxd0=_0xee5dx79!== _0xee5dx68[0]?1:0,_0xee5dxd1=_0xee5dx66[0]+ _0xee5dx5f[_0x2a03[106]],_0xee5dxd2=_0xee5dx66[1]- _0xee5dx5f[_0x2a03[106]],_0xee5dxd3=_0xee5dx66[0]+ _0xee5dx5f[_0x2a03[109]],_0xee5dxd4=_0xee5dx66[1]- _0xee5dx5f[_0x2a03[109]];if(_0xee5dx68[_0x2a03[22]]> 1){_0xee5dx6= _0xee5dxd0?Math[_0x2a03[18]](_0xee5dx6,_0xee5dxd1):Math[_0x2a03[17]](_0xee5dx6,_0xee5dxd2)};if(_0xee5dxcf!== false&& _0xee5dx5f[_0x2a03[109]]&& _0xee5dx68[_0x2a03[22]]> 1){_0xee5dx6= _0xee5dxd0?Math[_0x2a03[17]](_0xee5dx6,_0xee5dxd3):Math[_0x2a03[18]](_0xee5dx6,_0xee5dxd4)};_0xee5dx6= _0xee5dx69[_0x2a03[80]](_0xee5dx6);_0xee5dx6= _0xee5dx15(parseFloat(_0xee5dx6[_0x2a03[16]](7)));if(_0xee5dx6=== _0xee5dx66[_0xee5dxd0]){return false};if(window[_0x2a03[230]]){window[_0x2a03[230]](function(){_0xee5dx79[_0x2a03[140]][_0xee5dx5f[_0x2a03[140]]]= _0xee5dx6+ _0x2a03[231]})}else {_0xee5dx79[_0x2a03[140]][_0xee5dx5f[_0x2a03[140]]]= _0xee5dx6+ _0x2a03[231]};if(!_0xee5dx79[_0x2a03[232]]){_0xee5dx1c(_0xee5dx79,_0xee5dx6d[17]);if(_0xee5dx6> 50){_0xee5dx1a(_0xee5dx79,_0xee5dx6d[17])}};_0xee5dx66[_0xee5dxd0]= _0xee5dx6;_0xee5dx6a[_0xee5dxd0]= _0xee5dx69[_0x2a03[79]](_0xee5dx6);_0xee5dxb4(_0x2a03[176],_0xee5dxd0);return true}function _0xee5dxd5(_0xee5dxd6,_0xee5dx8c){var _0xee5dx42,_0xee5dxd0,_0xee5dx6;if(_0xee5dx5f[_0x2a03[109]]){_0xee5dxd6+= 1};for(_0xee5dx42= 0;_0xee5dx42< _0xee5dxd6;_0xee5dx42+= 1){_0xee5dxd0= _0xee5dx42% 2;_0xee5dx6= _0xee5dx8c[_0xee5dxd0];if(_0xee5dx6!== null&& _0xee5dx6!== false){if( typeof _0xee5dx6=== _0x2a03[14]){_0xee5dx6= String(_0xee5dx6)};_0xee5dx6= _0xee5dx5f[_0x2a03[129]][_0x2a03[130]](_0xee5dx6);if(_0xee5dx6=== false|| isNaN(_0xee5dx6)|| _0xee5dxce(_0xee5dx68[_0xee5dxd0],_0xee5dx69[_0x2a03[78]](_0xee5dx6),_0xee5dx42=== (3- _0xee5dx5f[_0x2a03[89]]))=== false){_0xee5dxb4(_0x2a03[176],_0xee5dxd0)}}}}function _0xee5dxd7(_0xee5dxd8){var _0xee5dxd6,_0xee5dx8c=_0xee5dx16(_0xee5dxd8),_0xee5dx42;if(_0xee5dx5f[_0x2a03[89]]&& _0xee5dx5f[_0x2a03[91]]> 1){_0xee5dx8c[_0x2a03[173]]()};if(_0xee5dx5f[_0x2a03[95]]&& _0xee5dx66[0]!==  -1){_0xee5dx11(_0xee5dx65,_0xee5dx6d[14],300)};_0xee5dxd6= _0xee5dx68[_0x2a03[22]]> 1?3:1;if(_0xee5dx8c[_0x2a03[22]]=== 1){_0xee5dxd6= 1};_0xee5dxd5(_0xee5dxd6,_0xee5dx8c);for(_0xee5dx42= 0;_0xee5dx42< _0xee5dx68[_0x2a03[22]];_0xee5dx42++){_0xee5dxb4(_0x2a03[218],_0xee5dx42)}}function _0xee5dxd9(){var _0xee5dx42,_0xee5dxda=[];for(_0xee5dx42= 0;_0xee5dx42< _0xee5dx5f[_0x2a03[91]];_0xee5dx42+= 1){_0xee5dxda[_0xee5dx42]= _0xee5dx5f[_0x2a03[129]][_0x2a03[125]](_0xee5dx6a[_0xee5dx42])};return _0xee5dxb9(_0xee5dxda)}function _0xee5dxdb(){_0xee5dx6d[_0x2a03[128]](function(_0xee5dxdc){if(!_0xee5dxdc){return};_0xee5dx1c(_0xee5dx65,_0xee5dxdc)});_0xee5dx65[_0x2a03[177]]= _0x2a03[39];delete _0xee5dx65[_0x2a03[233]]}function _0xee5dxdd(){var _0xee5dxda=_0xee5dx66[_0x2a03[141]](function(_0xee5dxcb,_0xee5dx3e){var _0xee5dx9d=_0xee5dx69[_0x2a03[81]](_0xee5dxcb),_0xee5dxde=_0xee5dx17(String(_0xee5dx9d[2])),_0xee5dx5=_0xee5dx6a[_0xee5dx3e],_0xee5dx94=_0xee5dxcb=== 100?null:_0xee5dx9d[2],_0xee5dxdf=Number((_0xee5dx5- _0xee5dx9d[2])[_0x2a03[16]](_0xee5dxde)),_0xee5dxe0=_0xee5dxcb=== 0?null:(_0xee5dxdf>= _0xee5dx9d[1])?_0xee5dx9d[2]:(_0xee5dx9d[0]|| false);return [_0xee5dxe0,_0xee5dx94]});return _0xee5dxb9(_0xee5dxda)}function _0xee5dxe1(_0xee5dxe2,_0xee5dxb8){_0xee5dx6b[_0xee5dxe2]= _0xee5dx6b[_0xee5dxe2]|| [];_0xee5dx6b[_0xee5dxe2][_0x2a03[67]](_0xee5dxb8);if(_0xee5dxe2[_0x2a03[21]](_0x2a03[20])[0]=== _0x2a03[176]){_0xee5dx68[_0x2a03[128]](function(_0xee5dx3,_0xee5dx3e){_0xee5dxb4(_0x2a03[176],_0xee5dx3e)})}}function _0xee5dxe3(_0xee5dxe2){var _0xee5dx76=_0xee5dxe2[_0x2a03[21]](_0x2a03[20])[0],_0xee5dxe4=_0xee5dxe2[_0x2a03[234]](_0xee5dx76[_0x2a03[22]]);Object[_0x2a03[138]](_0xee5dx6b)[_0x2a03[128]](function(_0xee5dxe5){var _0xee5dxe6=_0xee5dxe5[_0x2a03[21]](_0x2a03[20])[0],_0xee5dxe7=_0xee5dxe5[_0x2a03[234]](_0xee5dxe6[_0x2a03[22]]);if((!_0xee5dx76|| _0xee5dx76=== _0xee5dxe6) && (!_0xee5dxe4|| _0xee5dxe4=== _0xee5dxe7)){delete _0xee5dx6b[_0xee5dxe5]}})}function _0xee5dxe8(_0xee5dxe9){var _0xee5dx8f=_0xee5dxd9(),_0xee5dx42,_0xee5dxea=_0xee5dx5e({start:[0,0],margin:_0xee5dxe9[_0x2a03[106]],limit:_0xee5dxe9[_0x2a03[109]],step:_0xee5dxe9[_0x2a03[235]],range:_0xee5dxe9[_0x2a03[178]],animate:_0xee5dxe9[_0x2a03[95]],snap:_0xee5dxe9[_0x2a03[72]]=== undefined?_0xee5dx5f[_0x2a03[72]]:_0xee5dxe9[_0x2a03[72]]});[_0x2a03[106],_0x2a03[109],_0x2a03[235],_0x2a03[178],_0x2a03[95]][_0x2a03[128]](function(_0xee5dx62){if(_0xee5dxe9[_0xee5dx62]!== undefined){_0xee5dx5f[_0xee5dx62]= _0xee5dxe9[_0xee5dx62]}});_0xee5dx69= _0xee5dxea[_0x2a03[88]];_0xee5dx66= [-1,-1];_0xee5dxd7(_0xee5dx8f);for(_0xee5dx42= 0;_0xee5dx42< _0xee5dx68[_0x2a03[22]];_0xee5dx42++){_0xee5dxb4(_0x2a03[176],_0xee5dx42)}}if(_0xee5dx65[_0x2a03[233]]){throw  new Error(_0x2a03[236])};_0xee5dx67= _0xee5dx81(_0xee5dx5f[_0x2a03[89]],_0xee5dx5f[_0x2a03[101]],_0xee5dx65);_0xee5dx68= _0xee5dx7e(_0xee5dx5f[_0x2a03[91]],_0xee5dx5f[_0x2a03[89]],_0xee5dx67);_0xee5dx7b(_0xee5dx5f[_0x2a03[98]],_0xee5dx65,_0xee5dx68);if(_0xee5dx5f[_0x2a03[139]]){_0xee5dxaf(_0xee5dx5f[_0x2a03[139]])};if(_0xee5dx5f[_0x2a03[123]]){_0xee5dx85()};_0xee5dx6c= {destroy:_0xee5dxdb,steps:_0xee5dxdd,on:_0xee5dxe1,off:_0xee5dxe3,get:_0xee5dxd9,set:_0xee5dxd7,updateOptions:_0xee5dxe8};_0xee5dxbb(_0xee5dx5f[_0x2a03[122]]);return _0xee5dx6c}function _0xee5dxeb(_0xee5dx64,_0xee5dxec){if(!_0xee5dx64[_0x2a03[223]]){throw  new Error(_0x2a03[237])};var _0xee5dx5f=_0xee5dx5e(_0xee5dxec,_0xee5dx64),_0xee5dxed=_0xee5dx63(_0xee5dx64,_0xee5dx5f);_0xee5dxed[_0x2a03[218]](_0xee5dx5f[_0x2a03[92]]);_0xee5dx64[_0x2a03[233]]= _0xee5dxed;return _0xee5dxed}return {create:_0xee5dxeb}}))
+
+/*! SpanText noUIslider - */
+
+(function (factory) {
+
+    if ( typeof define === 'function' && define.amd ) {
+
+        // AMD. Register as an anonymous module.
+        define([], factory);
+
+    } else if ( typeof exports === 'object' ) {
+
+        // Node/CommonJS
+        module.exports = factory();
+
+    } else {
+
+        // Browser globals
+        window.noUiSlider = factory();
+    }
+
+}(function( ){
+
+	'use strict';
+
+
+	// Removes duplicates from an array.
+	function unique(array) {
+		return array.filter(function(a){
+			return !this[a] ? this[a] = true : false;
+		}, {});
+	}
+
+	// Round a value to the closest 'to'.
+	function closest ( value, to ) {
+		return Math.round(value / to) * to;
+	}
+
+	// Current position of an element relative to the document.
+	function offset ( elem ) {
+
+	var rect = elem.getBoundingClientRect(),
+		doc = elem.ownerDocument,
+		docElem = doc.documentElement,
+		pageOffset = getPageOffset();
+
+		// getBoundingClientRect contains left scroll in Chrome on Android.
+		// I haven't found a feature detection that proves this. Worst case
+		// scenario on mis-match: the 'tap' feature on horizontal sliders breaks.
+		if ( /webkit.*Chrome.*Mobile/i.test(navigator.userAgent) ) {
+			pageOffset.x = 0;
+		}
+
+		return {
+			top: rect.top + pageOffset.y - docElem.clientTop,
+			left: rect.left + pageOffset.x - docElem.clientLeft
+		};
+	}
+
+	// Checks whether a value is numerical.
+	function isNumeric ( a ) {
+		return typeof a === 'number' && !isNaN( a ) && isFinite( a );
+	}
+
+	// Rounds a number to 7 supported decimals.
+	function accurateNumber( number ) {
+		var p = Math.pow(10, 7);
+		return Number((Math.round(number*p)/p).toFixed(7));
+	}
+
+	// Sets a class and removes it after [duration] ms.
+	function addClassFor ( element, className, duration ) {
+		addClass(element, className);
+		setTimeout(function(){
+			removeClass(element, className);
+		}, duration);
+	}
+
+	// Limits a value to 0 - 100
+	function limit ( a ) {
+		return Math.max(Math.min(a, 100), 0);
+	}
+
+	// Wraps a variable as an array, if it isn't one yet.
+	function asArray ( a ) {
+		return Array.isArray(a) ? a : [a];
+	}
+
+	// Counts decimals
+	function countDecimals ( numStr ) {
+		var pieces = numStr.split(".");
+		return pieces.length > 1 ? pieces[1].length : 0;
+	}
+
+	// http://youmightnotneedjquery.com/#add_class
+	function addClass ( el, className ) {
+		if ( el.classList ) {
+			el.classList.add(className);
+		} else {
+			el.className += ' ' + className;
+		}
+	}
+
+	// http://youmightnotneedjquery.com/#remove_class
+	function removeClass ( el, className ) {
+		if ( el.classList ) {
+			el.classList.remove(className);
+		} else {
+			el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+		}
+	}
+
+	// http://youmightnotneedjquery.com/#has_class
+	function hasClass ( el, className ) {
+		if ( el.classList ) {
+			el.classList.contains(className);
+		} else {
+			new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
+		}
+	}
+
+	// https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY#Notes
+	function getPageOffset ( ) {
+
+		var supportPageOffset = window.pageXOffset !== undefined,
+			isCSS1Compat = ((document.compatMode || "") === "CSS1Compat"),
+			x = supportPageOffset ? window.pageXOffset : isCSS1Compat ? document.documentElement.scrollLeft : document.body.scrollLeft,
+			y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+
+		return {
+			x: x,
+			y: y
+		};
+	}
+
+	// Shorthand for stopPropagation so we don't have to create a dynamic method
+	function stopPropagation ( e ) {
+		e.stopPropagation();
+	}
+
+	// todo
+	function addCssPrefix(cssPrefix) {
+		return function(className) {
+			return cssPrefix + className;
+		};
+	}
+
+
+	var
+	// Determine the events to bind. IE11 implements pointerEvents without
+	// a prefix, which breaks compatibility with the IE10 implementation.
+	/** @const */
+	actions = window.navigator.pointerEnabled ? {
+		start: 'pointerdown',
+		move: 'pointermove',
+		end: 'pointerup'
+	} : window.navigator.msPointerEnabled ? {
+		start: 'MSPointerDown',
+		move: 'MSPointerMove',
+		end: 'MSPointerUp'
+	} : {
+		start: 'mousedown touchstart',
+		move: 'mousemove touchmove',
+		end: 'mouseup touchend'
+	},
+	defaultCssPrefix = 'noUi-';
+
+
+// Value calculation
+
+	// Determine the size of a sub-range in relation to a full range.
+	function subRangeRatio ( pa, pb ) {
+		return (100 / (pb - pa));
+	}
+
+	// (percentage) How many percent is this value of this range?
+	function fromPercentage ( range, value ) {
+		return (value * 100) / ( range[1] - range[0] );
+	}
+
+	// (percentage) Where is this value on this range?
+	function toPercentage ( range, value ) {
+		return fromPercentage( range, range[0] < 0 ?
+			value + Math.abs(range[0]) :
+				value - range[0] );
+	}
+
+	// (value) How much is this percentage on this range?
+	function isPercentage ( range, value ) {
+		return ((value * ( range[1] - range[0] )) / 100) + range[0];
+	}
+
+
+// Range conversion
+
+	function getJ ( value, arr ) {
+
+		var j = 1;
+
+		while ( value >= arr[j] ){
+			j += 1;
+		}
+
+		return j;
+	}
+
+	// (percentage) Input a value, find where, on a scale of 0-100, it applies.
+	function toStepping ( xVal, xPct, value ) {
+
+		if ( value >= xVal.slice(-1)[0] ){
+			return 100;
+		}
+
+		var j = getJ( value, xVal ), va, vb, pa, pb;
+
+		va = xVal[j-1];
+		vb = xVal[j];
+		pa = xPct[j-1];
+		pb = xPct[j];
+
+		return pa + (toPercentage([va, vb], value) / subRangeRatio (pa, pb));
+	}
+
+	// (value) Input a percentage, find where it is on the specified range.
+	function fromStepping ( xVal, xPct, value ) {
+
+		// There is no range group that fits 100
+		if ( value >= 100 ){
+			return xVal.slice(-1)[0];
+		}
+
+		var j = getJ( value, xPct ), va, vb, pa, pb;
+
+		va = xVal[j-1];
+		vb = xVal[j];
+		pa = xPct[j-1];
+		pb = xPct[j];
+
+		return isPercentage([va, vb], (value - pa) * subRangeRatio (pa, pb));
+	}
+
+	// (percentage) Get the step that applies at a certain value.
+	function getStep ( xPct, xSteps, snap, value ) {
+
+		if ( value === 100 ) {
+			return value;
+		}
+
+		var j = getJ( value, xPct ), a, b;
+
+		// If 'snap' is set, steps are used as fixed points on the slider.
+		if ( snap ) {
+
+			a = xPct[j-1];
+			b = xPct[j];
+
+			// Find the closest position, a or b.
+			if ((value - a) > ((b-a)/2)){
+				return b;
+			}
+
+			return a;
+		}
+
+		if ( !xSteps[j-1] ){
+			return value;
+		}
+
+		return xPct[j-1] + closest(
+			value - xPct[j-1],
+			xSteps[j-1]
+		);
+	}
+
+
+// Entry parsing
+
+	function handleEntryPoint ( index, value, that ) {
+
+		var percentage;
+
+		// Wrap numerical input in an array.
+		if ( typeof value === "number" ) {
+			value = [value];
+		}
+
+		// Reject any invalid input, by testing whether value is an array.
+		if ( Object.prototype.toString.call( value ) !== '[object Array]' ){
+			throw new Error("noUiSlider: 'range' contains invalid value.");
+		}
+
+		// Covert min/max syntax to 0 and 100.
+		if ( index === 'min' ) {
+			percentage = 0;
+		} else if ( index === 'max' ) {
+			percentage = 100;
+		} else {
+			percentage = parseFloat( index );
+		}
+
+		// Check for correct input.
+		if ( !isNumeric( percentage ) || !isNumeric( value[0] ) ) {
+			throw new Error("noUiSlider: 'range' value isn't numeric.");
+		}
+
+		// Store values.
+		that.xPct.push( percentage );
+		that.xVal.push( value[0] );
+
+		// NaN will evaluate to false too, but to keep
+		// logging clear, set step explicitly. Make sure
+		// not to override the 'step' setting with false.
+		if ( !percentage ) {
+			if ( !isNaN( value[1] ) ) {
+				that.xSteps[0] = value[1];
+			}
+		} else {
+			that.xSteps.push( isNaN(value[1]) ? false : value[1] );
+		}
+	}
+
+	function handleStepPoint ( i, n, that ) {
+
+		// Ignore 'false' stepping.
+		if ( !n ) {
+			return true;
+		}
+
+		// Factor to range ratio
+		that.xSteps[i] = fromPercentage([
+			 that.xVal[i]
+			,that.xVal[i+1]
+		], n) / subRangeRatio (
+			that.xPct[i],
+			that.xPct[i+1] );
+	}
+
+
+// Interface
+
+	// The interface to Spectrum handles all direction-based
+	// conversions, so the above values are unaware.
+
+	function Spectrum ( entry, snap, direction, singleStep ) {
+
+		this.xPct = [];
+		this.xVal = [];
+		this.xSteps = [ singleStep || false ];
+		this.xNumSteps = [ false ];
+
+		this.snap = snap;
+		this.direction = direction;
+
+		var index, ordered = [ /* [0, 'min'], [1, '50%'], [2, 'max'] */ ];
+
+		// Map the object keys to an array.
+		for ( index in entry ) {
+			if ( entry.hasOwnProperty(index) ) {
+				ordered.push([entry[index], index]);
+			}
+		}
+
+		// Sort all entries by value (numeric sort).
+		if ( ordered.length && typeof ordered[0][0] === "object" ) {
+			ordered.sort(function(a, b) { return a[0][0] - b[0][0]; });
+		} else {
+			ordered.sort(function(a, b) { return a[0] - b[0]; });
+		}
+
+
+		// Convert all entries to subranges.
+		for ( index = 0; index < ordered.length; index++ ) {
+			handleEntryPoint(ordered[index][1], ordered[index][0], this);
+		}
+
+		// Store the actual step values.
+		// xSteps is sorted in the same order as xPct and xVal.
+		this.xNumSteps = this.xSteps.slice(0);
+
+		// Convert all numeric steps to the percentage of the subrange they represent.
+		for ( index = 0; index < this.xNumSteps.length; index++ ) {
+			handleStepPoint(index, this.xNumSteps[index], this);
+		}
+	}
+
+	Spectrum.prototype.getMargin = function ( value ) {
+		return this.xPct.length === 2 ? fromPercentage(this.xVal, value) : false;
+	};
+
+	Spectrum.prototype.toStepping = function ( value ) {
+
+		value = toStepping( this.xVal, this.xPct, value );
+
+		// Invert the value if this is a right-to-left slider.
+		if ( this.direction ) {
+			value = 100 - value;
+		}
+
+		return value;
+	};
+
+	Spectrum.prototype.fromStepping = function ( value ) {
+
+		// Invert the value if this is a right-to-left slider.
+		if ( this.direction ) {
+			value = 100 - value;
+		}
+
+		return accurateNumber(fromStepping( this.xVal, this.xPct, value ));
+	};
+
+	Spectrum.prototype.getStep = function ( value ) {
+
+		// Find the proper step for rtl sliders by search in inverse direction.
+		// Fixes issue #262.
+		if ( this.direction ) {
+			value = 100 - value;
+		}
+
+		value = getStep(this.xPct, this.xSteps, this.snap, value );
+
+		if ( this.direction ) {
+			value = 100 - value;
+		}
+
+		return value;
+	};
+
+	Spectrum.prototype.getApplicableStep = function ( value ) {
+
+		// If the value is 100%, return the negative step twice.
+		var j = getJ(value, this.xPct), offset = value === 100 ? 2 : 1;
+		return [this.xNumSteps[j-2], this.xVal[j-offset], this.xNumSteps[j-offset]];
+	};
+
+	// Outside testing
+	Spectrum.prototype.convert = function ( value ) {
+		return this.getStep(this.toStepping(value));
+	};
+
+/*	Every input option is tested and parsed. This'll prevent
+	endless validation in internal methods. These tests are
+	structured with an item for every option available. An
+	option can be marked as required by setting the 'r' flag.
+	The testing function is provided with three arguments:
+		- The provided value for the option;
+		- A reference to the options object;
+		- The name for the option;
+
+	The testing function returns false when an error is detected,
+	or true when everything is OK. It can also modify the option
+	object, to make sure all values can be correctly looped elsewhere. */
+
+	var defaultFormatter = { 'to': function( value ){
+		return value !== undefined && value.toFixed(2);
+	}, 'from': Number };
+
+	function testStep ( parsed, entry ) {
+
+		if ( !isNumeric( entry ) ) {
+			throw new Error("noUiSlider: 'step' is not numeric.");
+		}
+
+		// The step option can still be used to set stepping
+		// for linear sliders. Overwritten if set in 'range'.
+		parsed.singleStep = entry;
+	}
+
+	function testRange ( parsed, entry ) {
+
+		// Filter incorrect input.
+		if ( typeof entry !== 'object' || Array.isArray(entry) ) {
+			throw new Error("noUiSlider: 'range' is not an object.");
+		}
+
+		// Catch missing start or end.
+		if ( entry.min === undefined || entry.max === undefined ) {
+			throw new Error("noUiSlider: Missing 'min' or 'max' in 'range'.");
+		}
+
+		// Catch equal start or end.
+		if ( entry.min === entry.max ) {
+			throw new Error("noUiSlider: 'range' 'min' and 'max' cannot be equal.");
+		}
+
+		parsed.spectrum = new Spectrum(entry, parsed.snap, parsed.dir, parsed.singleStep);
+	}
+
+	function testStart ( parsed, entry ) {
+
+		entry = asArray(entry);
+
+		// Validate input. Values aren't tested, as the public .val method
+		// will always provide a valid location.
+		if ( !Array.isArray( entry ) || !entry.length || entry.length > 2 ) {
+			throw new Error("noUiSlider: 'start' option is incorrect.");
+		}
+
+		// Store the number of handles.
+		parsed.handles = entry.length;
+
+		// When the slider is initialized, the .val method will
+		// be called with the start options.
+		parsed.start = entry;
+	}
+
+	function testSnap ( parsed, entry ) {
+
+		// Enforce 100% stepping within subranges.
+		parsed.snap = entry;
+
+		if ( typeof entry !== 'boolean' ){
+			throw new Error("noUiSlider: 'snap' option must be a boolean.");
+		}
+	}
+
+	function testAnimate ( parsed, entry ) {
+
+		// Enforce 100% stepping within subranges.
+		parsed.animate = entry;
+
+		if ( typeof entry !== 'boolean' ){
+			throw new Error("noUiSlider: 'animate' option must be a boolean.");
+		}
+	}
+
+	function testConnect ( parsed, entry ) {
+
+		if ( entry === 'lower' && parsed.handles === 1 ) {
+			parsed.connect = 1;
+		} else if ( entry === 'upper' && parsed.handles === 1 ) {
+			parsed.connect = 2;
+		} else if ( entry === true && parsed.handles === 2 ) {
+			parsed.connect = 3;
+		} else if ( entry === false ) {
+			parsed.connect = 0;
+		} else {
+			throw new Error("noUiSlider: 'connect' option doesn't match handle count.");
+		}
+	}
+
+	function testOrientation ( parsed, entry ) {
+
+		// Set orientation to an a numerical value for easy
+		// array selection.
+		switch ( entry ){
+		  case 'horizontal':
+			parsed.ort = 0;
+			break;
+		  case 'vertical':
+			parsed.ort = 1;
+			break;
+		  default:
+			throw new Error("noUiSlider: 'orientation' option is invalid.");
+		}
+	}
+
+	function testMargin ( parsed, entry ) {
+
+		if ( !isNumeric(entry) ){
+			throw new Error("noUiSlider: 'margin' option must be numeric.");
+		}
+
+		parsed.margin = parsed.spectrum.getMargin(entry);
+
+		if ( !parsed.margin ) {
+			throw new Error("noUiSlider: 'margin' option is only supported on linear sliders.");
+		}
+	}
+
+	function testLimit ( parsed, entry ) {
+
+		if ( !isNumeric(entry) ){
+			throw new Error("noUiSlider: 'limit' option must be numeric.");
+		}
+
+		parsed.limit = parsed.spectrum.getMargin(entry);
+
+		if ( !parsed.limit ) {
+			throw new Error("noUiSlider: 'limit' option is only supported on linear sliders.");
+		}
+	}
+
+	function testDirection ( parsed, entry ) {
+
+		// Set direction as a numerical value for easy parsing.
+		// Invert connection for RTL sliders, so that the proper
+		// handles get the connect/background classes.
+		switch ( entry ) {
+		  case 'ltr':
+			parsed.dir = 0;
+			break;
+		  case 'rtl':
+			parsed.dir = 1;
+			parsed.connect = [0,2,1,3][parsed.connect];
+			break;
+		  default:
+			throw new Error("noUiSlider: 'direction' option was not recognized.");
+		}
+	}
+
+	function testBehaviour ( parsed, entry ) {
+
+		// Make sure the input is a string.
+		if ( typeof entry !== 'string' ) {
+			throw new Error("noUiSlider: 'behaviour' must be a string containing options.");
+		}
+
+		// Check if the string contains any keywords.
+		// None are required.
+		var tap = entry.indexOf('tap') >= 0,
+			drag = entry.indexOf('drag') >= 0,
+			fixed = entry.indexOf('fixed') >= 0,
+			snap = entry.indexOf('snap') >= 0,
+			hover = entry.indexOf('hover') >= 0;
+
+		// Fix #472
+		if ( drag && !parsed.connect ) {
+			throw new Error("noUiSlider: 'drag' behaviour must be used with 'connect': true.");
+		}
+
+		parsed.events = {
+			tap: tap || snap,
+			drag: drag,
+			fixed: fixed,
+			snap: snap,
+			hover: hover
+		};
+	}
+
+	function testTooltips ( parsed, entry ) {
+
+		var i;
+
+		if ( entry === false ) {
+			return;
+		} else if ( entry === true ) {
+
+			parsed.tooltips = [];
+
+			for ( i = 0; i < parsed.handles; i++ ) {
+				parsed.tooltips.push(true);
+			}
+
+		} else {
+
+			parsed.tooltips = asArray(entry);
+
+			if ( parsed.tooltips.length !== parsed.handles ) {
+				throw new Error("noUiSlider: must pass a formatter for all handles.");
+			}
+
+			parsed.tooltips.forEach(function(formatter){
+				if ( typeof formatter !== 'boolean' && (typeof formatter !== 'object' || typeof formatter.to !== 'function') ) {
+					throw new Error("noUiSlider: 'tooltips' must be passed a formatter or 'false'.");
+				}
+			});
+		}
+	}
+
+	function testFormat ( parsed, entry ) {
+
+		parsed.format = entry;
+
+		// Any object with a to and from method is supported.
+		if ( typeof entry.to === 'function' && typeof entry.from === 'function' ) {
+			return true;
+		}
+
+		throw new Error( "noUiSlider: 'format' requires 'to' and 'from' methods.");
+	}
+
+	function testCssPrefix ( parsed, entry ) {
+
+		if ( entry !== undefined && typeof entry !== 'string' ) {
+			throw new Error( "noUiSlider: 'cssPrefix' must be a string.");
+		}
+
+		parsed.cssPrefix = entry;
+	}
+
+	// Test all developer settings and parse to assumption-safe values.
+	function testOptions ( options ) {
+
+		// To prove a fix for #537, freeze options here.
+		// If the object is modified, an error will be thrown.
+		// Object.freeze(options);
+
+		var parsed = {
+			margin: 0,
+			limit: 0,
+			animate: true,
+			format: defaultFormatter
+		}, tests;
+
+		// Tests are executed in the order they are presented here.
+		tests = {
+			'step': { r: false, t: testStep },
+			'start': { r: true, t: testStart },
+			'connect': { r: true, t: testConnect },
+			'direction': { r: true, t: testDirection },
+			'snap': { r: false, t: testSnap },
+			'animate': { r: false, t: testAnimate },
+			'range': { r: true, t: testRange },
+			'orientation': { r: false, t: testOrientation },
+			'margin': { r: false, t: testMargin },
+			'limit': { r: false, t: testLimit },
+			'behaviour': { r: true, t: testBehaviour },
+			'format': { r: false, t: testFormat },
+			'tooltips': { r: false, t: testTooltips },
+			'cssPrefix': { r: false, t: testCssPrefix }
+		};
+
+		var defaults = {
+			'connect': false,
+			'direction': 'ltr',
+			'behaviour': 'tap',
+			'orientation': 'horizontal'
+		};
+
+		// Run all options through a testing mechanism to ensure correct
+		// input. It should be noted that options might get modified to
+		// be handled properly. E.g. wrapping integers in arrays.
+		Object.keys(tests).forEach(function( name ){
+
+			// If the option isn't set, but it is required, throw an error.
+			if ( options[name] === undefined && defaults[name] === undefined ) {
+
+				if ( tests[name].r ) {
+					throw new Error("noUiSlider: '" + name + "' is required.");
+				}
+
+				return true;
+			}
+
+			tests[name].t( parsed, options[name] === undefined ? defaults[name] : options[name] );
+		});
+
+		// Forward pips options
+		parsed.pips = options.pips;
+
+		// Pre-define the styles.
+		parsed.style = parsed.ort ? 'top' : 'left';
+
+		return parsed;
+	}
+
+
+function closure ( target, options ){
+
+	// All variables local to 'closure' are prefixed with 'scope_'
+	var scope_Target = target,
+		scope_Locations = [-1, -1],
+		scope_Base,
+		scope_Handles,
+		scope_Spectrum = options.spectrum,
+		scope_Values = [],
+		scope_Events = {},
+		scope_Self;
+
+  var cssClasses = [
+    /*  0 */  'target'
+    /*  1 */ ,'base'
+    /*  2 */ ,'origin'
+    /*  3 */ ,'handle'
+    /*  4 */ ,'horizontal'
+    /*  5 */ ,'vertical'
+    /*  6 */ ,'background'
+    /*  7 */ ,'connect'
+    /*  8 */ ,'ltr'
+    /*  9 */ ,'rtl'
+    /* 10 */ ,'draggable'
+    /* 11 */ ,''
+    /* 12 */ ,'state-drag'
+    /* 13 */ ,''
+    /* 14 */ ,'state-tap'
+    /* 15 */ ,'active'
+    /* 16 */ ,''
+    /* 17 */ ,'stacking'
+    /* 18 */ ,'tooltip'
+    /* 19 */ ,''
+    /* 20 */ ,'pips'
+    /* 21 */ ,'marker'
+    /* 22 */ ,'value'
+  ].map(addCssPrefix(options.cssPrefix || defaultCssPrefix));
+
+
+	// Delimit proposed values for handle positions.
+	function getPositions ( a, b, delimit ) {
+
+		// Add movement to current position.
+		var c = a + b[0], d = a + b[1];
+
+		// Only alter the other position on drag,
+		// not on standard sliding.
+		if ( delimit ) {
+			if ( c < 0 ) {
+				d += Math.abs(c);
+			}
+			if ( d > 100 ) {
+				c -= ( d - 100 );
+			}
+
+			// Limit values to 0 and 100.
+			return [limit(c), limit(d)];
+		}
+
+		return [c,d];
+	}
+
+	// Provide a clean event with standardized offset values.
+	function fixEvent ( e, pageOffset ) {
+
+		// Prevent scrolling and panning on touch events, while
+		// attempting to slide. The tap event also depends on this.
+		e.preventDefault();
+
+		// Filter the event to register the type, which can be
+		// touch, mouse or pointer. Offset changes need to be
+		// made on an event specific basis.
+		var touch = e.type.indexOf('touch') === 0,
+			mouse = e.type.indexOf('mouse') === 0,
+			pointer = e.type.indexOf('pointer') === 0,
+			x,y, event = e;
+
+		// IE10 implemented pointer events with a prefix;
+		if ( e.type.indexOf('MSPointer') === 0 ) {
+			pointer = true;
+		}
+
+		if ( touch ) {
+			// noUiSlider supports one movement at a time,
+			// so we can select the first 'changedTouch'.
+			x = e.changedTouches[0].pageX;
+			y = e.changedTouches[0].pageY;
+		}
+
+		pageOffset = pageOffset || getPageOffset();
+
+		if ( mouse || pointer ) {
+			x = e.clientX + pageOffset.x;
+			y = e.clientY + pageOffset.y;
+		}
+
+		event.pageOffset = pageOffset;
+		event.points = [x, y];
+		event.cursor = mouse || pointer; // Fix #435
+
+		return event;
+	}
+
+	// Append a handle to the base.
+	function addHandle ( direction, index ) {
+
+		var origin = document.createElement('div'),
+			handle = document.createElement('div'),
+			additions = [ '-lower', '-upper' ];
+
+		if ( direction ) {
+			additions.reverse();
+		}
+
+		addClass(handle, cssClasses[3]);
+		addClass(handle, cssClasses[3] + additions[index]);
+
+		addClass(origin, cssClasses[2]);
+		origin.appendChild(handle);
+
+		return origin;
+	}
+
+	// Add the proper connection classes.
+	function addConnection ( connect, target, handles ) {
+
+		// Apply the required connection classes to the elements
+		// that need them. Some classes are made up for several
+		// segments listed in the class list, to allow easy
+		// renaming and provide a minor compression benefit.
+		switch ( connect ) {
+			case 1:	addClass(target, cssClasses[7]);
+					addClass(handles[0], cssClasses[6]);
+					break;
+			case 3: addClass(handles[1], cssClasses[6]);
+					/* falls through */
+			case 2: addClass(handles[0], cssClasses[7]);
+					/* falls through */
+			case 0: addClass(target, cssClasses[6]);
+					break;
+		}
+	}
+
+	// Add handles to the slider base.
+	function addHandles ( nrHandles, direction, base ) {
+
+		var index, handles = [];
+
+		// Append handles.
+		for ( index = 0; index < nrHandles; index += 1 ) {
+
+			// Keep a list of all added handles.
+			handles.push( base.appendChild(addHandle( direction, index )) );
+		}
+
+		return handles;
+	}
+
+	// Initialize a single slider.
+	function addSlider ( direction, orientation, target ) {
+
+		// Apply classes and data to the target.
+		addClass(target, cssClasses[0]);
+		addClass(target, cssClasses[8 + direction]);
+		addClass(target, cssClasses[4 + orientation]);
+
+		var div = document.createElement('div');
+		addClass(div, cssClasses[1]);
+		target.appendChild(div);
+		return div;
+	}
+
+
+	function addTooltip ( handle, index ) {
+
+		if ( !options.tooltips[index] ) {
+			return false;
+		}
+
+		var element = document.createElement('div');
+		element.className = cssClasses[18];
+		return handle.firstChild.appendChild(element);
+	}
+
+	// The tooltips option is a shorthand for using the 'update' event.
+	function tooltips ( ) {
+
+		if ( options.dir ) {
+			options.tooltips.reverse();
+		}
+
+		// Tooltips are added with options.tooltips in original order.
+		var tips = scope_Handles.map(addTooltip);
+
+		if ( options.dir ) {
+			tips.reverse();
+			options.tooltips.reverse();
+		}
+
+		bindEvent('update', function(f, o, r) {
+			if ( tips[o] ) {
+				tips[o].innerHTML = options.tooltips[o] === true ? f[o] : options.tooltips[o].to(r[o]);
+			}
+		});
+	}
+
+
+	function getGroup ( mode, values, stepped ) {
+
+		// Use the range.
+		if ( mode === 'range' || mode === 'steps' ) {
+			return scope_Spectrum.xVal;
+		}
+
+		if ( mode === 'count' ) {
+
+			// Divide 0 - 100 in 'count' parts.
+			var spread = ( 100 / (values-1) ), v, i = 0;
+			values = [];
+
+			// List these parts and have them handled as 'positions'.
+			while ((v=i++*spread) <= 100 ) {
+				values.push(v);
+			}
+
+			mode = 'positions';
+		}
+
+		if ( mode === 'positions' ) {
+
+			// Map all percentages to on-range values.
+			return values.map(function( value ){
+				return scope_Spectrum.fromStepping( stepped ? scope_Spectrum.getStep( value ) : value );
+			});
+		}
+
+		if ( mode === 'values' ) {
+
+			// If the value must be stepped, it needs to be converted to a percentage first.
+			if ( stepped ) {
+
+				return values.map(function( value ){
+
+					// Convert to percentage, apply step, return to value.
+					return scope_Spectrum.fromStepping( scope_Spectrum.getStep( scope_Spectrum.toStepping( value ) ) );
+				});
+
+			}
+
+			// Otherwise, we can simply use the values.
+			return values;
+		}
+	}
+
+	function generateSpread ( density, mode, group ) {
+
+		function safeIncrement(value, increment) {
+			// Avoid floating point variance by dropping the smallest decimal places.
+			return (value + increment).toFixed(7) / 1;
+		}
+
+		var originalSpectrumDirection = scope_Spectrum.direction,
+			indexes = {},
+			firstInRange = scope_Spectrum.xVal[0],
+			lastInRange = scope_Spectrum.xVal[scope_Spectrum.xVal.length-1],
+			ignoreFirst = false,
+			ignoreLast = false,
+			prevPct = 0;
+
+		// This function loops the spectrum in an ltr linear fashion,
+		// while the toStepping method is direction aware. Trick it into
+		// believing it is ltr.
+		scope_Spectrum.direction = 0;
+
+		// Create a copy of the group, sort it and filter away all duplicates.
+		group = unique(group.slice().sort(function(a, b){ return a - b; }));
+
+		// Make sure the range starts with the first element.
+		if ( group[0] !== firstInRange ) {
+			group.unshift(firstInRange);
+			ignoreFirst = true;
+		}
+
+		// Likewise for the last one.
+		if ( group[group.length - 1] !== lastInRange ) {
+			group.push(lastInRange);
+			ignoreLast = true;
+		}
+
+		group.forEach(function ( current, index ) {
+
+			// Get the current step and the lower + upper positions.
+			var step, i, q,
+				low = current,
+				high = group[index+1],
+				newPct, pctDifference, pctPos, type,
+				steps, realSteps, stepsize;
+
+			// When using 'steps' mode, use the provided steps.
+			// Otherwise, we'll step on to the next subrange.
+			if ( mode === 'steps' ) {
+				step = scope_Spectrum.xNumSteps[ index ];
+			}
+
+			// Default to a 'full' step.
+			if ( !step ) {
+				step = high-low;
+			}
+
+			// Low can be 0, so test for false. If high is undefined,
+			// we are at the last subrange. Index 0 is already handled.
+			if ( low === false || high === undefined ) {
+				return;
+			}
+
+			// Find all steps in the subrange.
+			for ( i = low; i <= high; i = safeIncrement(i, step) ) {
+
+				// Get the percentage value for the current step,
+				// calculate the size for the subrange.
+				newPct = scope_Spectrum.toStepping( i );
+				pctDifference = newPct - prevPct;
+
+				steps = pctDifference / density;
+				realSteps = Math.round(steps);
+
+				// This ratio represents the ammount of percentage-space a point indicates.
+				// For a density 1 the points/percentage = 1. For density 2, that percentage needs to be re-devided.
+				// Round the percentage offset to an even number, then divide by two
+				// to spread the offset on both sides of the range.
+				stepsize = pctDifference/realSteps;
+
+				// Divide all points evenly, adding the correct number to this subrange.
+				// Run up to <= so that 100% gets a point, event if ignoreLast is set.
+				for ( q = 1; q <= realSteps; q += 1 ) {
+
+					// The ratio between the rounded value and the actual size might be ~1% off.
+					// Correct the percentage offset by the number of points
+					// per subrange. density = 1 will result in 100 points on the
+					// full range, 2 for 50, 4 for 25, etc.
+					pctPos = prevPct + ( q * stepsize );
+					indexes[pctPos.toFixed(5)] = ['x', 0];
+				}
+
+				// Determine the point type.
+				type = (group.indexOf(i) > -1) ? 1 : ( mode === 'steps' ? 2 : 0 );
+
+				// Enforce the 'ignoreFirst' option by overwriting the type for 0.
+				if ( !index && ignoreFirst ) {
+					type = 0;
+				}
+
+				if ( !(i === high && ignoreLast)) {
+					// Mark the 'type' of this point. 0 = plain, 1 = real value, 2 = step value.
+					indexes[newPct.toFixed(5)] = [i, type];
+				}
+
+				// Update the percentage count.
+				prevPct = newPct;
+			}
+		});
+
+		// Reset the spectrum.
+		scope_Spectrum.direction = originalSpectrumDirection;
+
+		return indexes;
+	}
+
+	function addMarking ( spread, filterFunc, formatter ) {
+
+		var style = ['horizontal', 'vertical'][options.ort],
+			element = document.createElement('div');
+
+		addClass(element, cssClasses[20]);
+		addClass(element, cssClasses[20] + '-' + style);
+
+		function getSize( type ){
+			return [ '-normal', '-large', '-sub' ][type];
+		}
+
+		function getTags( offset, source, values ) {
+			return 'class="' + source + ' ' +
+				source + '-' + style + ' ' +
+				source + getSize(values[1]) +
+				'" style="' + options.style + ': ' + offset + '%"';
+		}
+
+		function addSpread ( offset, values ){
+
+			if ( scope_Spectrum.direction ) {
+				offset = 100 - offset;
+			}
+
+			// Apply the filter function, if it is set.
+			values[1] = (values[1] && filterFunc) ? filterFunc(values[0], values[1]) : values[1];
+
+			// Add a marker for every point
+			element.innerHTML += '<div ' + getTags(offset, cssClasses[21], values) + '></div>';
+
+			// Values are only appended for points marked '1' or '2'.
+			if ( values[1] ) {
+				element.innerHTML += '<div '+getTags(offset, cssClasses[22], values)+'>' + formatter.to(values[0]) + '</div>';
+			}
+		}
+
+		// Append all points.
+		Object.keys(spread).forEach(function(a){
+			addSpread(a, spread[a]);
+		});
+
+		return element;
+	}
+
+	function pips ( grid ) {
+
+	var mode = grid.mode,
+		density = grid.density || 1,
+		filter = grid.filter || false,
+		values = grid.values || false,
+		stepped = grid.stepped || false,
+		group = getGroup( mode, values, stepped ),
+		spread = generateSpread( density, mode, group ),
+		format = grid.format || {
+			to: Math.round
+		};
+
+		return scope_Target.appendChild(addMarking(
+			spread,
+			filter,
+			format
+		));
+	}
+
+
+	// Shorthand for base dimensions.
+	function baseSize ( ) {
+		return scope_Base['offset' + ['Width', 'Height'][options.ort]];
+	}
+
+	// External event handling
+	function fireEvent ( event, handleNumber, tap ) {
+
+		if ( handleNumber !== undefined && options.handles !== 1 ) {
+			handleNumber = Math.abs(handleNumber - options.dir);
+		}
+		Object.keys(scope_Events).forEach(function( targetEvent ) {
+
+			var eventType = targetEvent.split('.')[0];
+
+			if ( event === eventType ) {
+				scope_Events[targetEvent].forEach(function( callback ) {
+					// .reverse is in place
+					// Return values as array, so arg_1[arg_2] is always valid.
+					// NFB changed this for <span>Text 
+					callback.call(scope_Self, asArray(valueGet()), handleNumber, asArray(inSliderOrder(Array.prototype.slice.call(scope_Values))), tap || false, event, target.id);
+				});
+			}
+		});
+	}
+
+	// Returns the input array, respecting the slider direction configuration.
+	function inSliderOrder ( values ) {
+
+		// If only one handle is used, return a single value.
+		if ( values.length === 1 ){
+			return values[0];
+		}
+
+		if ( options.dir ) {
+			return values.reverse();
+		}
+
+		return values;
+	}
+
+
+	// Handler for attaching events trough a proxy.
+	function attach ( events, element, callback, data ) {
+
+		// This function can be used to 'filter' events to the slider.
+		// element is a node, not a nodeList
+
+		var method = function ( e ){
+
+			if ( scope_Target.hasAttribute('disabled') ) {
+				return false;
+			}
+
+			// Stop if an active 'tap' transition is taking place.
+			if ( hasClass(scope_Target, cssClasses[14]) ) {
+				return false;
+			}
+
+			e = fixEvent(e, data.pageOffset);
+
+			// Ignore right or middle clicks on start #454
+			if ( events === actions.start && e.buttons !== undefined && e.buttons > 1 ) {
+				return false;
+			}
+
+			// Ignore right or middle clicks on start #454
+			if ( data.hover && e.buttons ) {
+				return false;
+			}
+
+			e.calcPoint = e.points[ options.ort ];
+
+			// Call the event handler with the event [ and additional data ].
+			callback ( e, data );
+
+		}, methods = [];
+
+		// Bind a closure on the target for every event type.
+		events.split(' ').forEach(function( eventName ){
+			element.addEventListener(eventName, method, false);
+			methods.push([eventName, method]);
+		});
+
+		return methods;
+	}
+
+	// Handle movement on document for handle and range drag.
+	function move ( event, data ) {
+
+		// Fix #498
+		// Check value of .buttons in 'start' to work around a bug in IE10 mobile (data.buttonsProperty).
+		// https://connect.microsoft.com/IE/feedback/details/927005/mobile-ie10-windows-phone-buttons-property-of-pointermove-event-always-zero
+		// IE9 has .buttons and .which zero on mousemove.
+		// Firefox breaks the spec MDN defines.
+		if ( navigator.appVersion.indexOf("MSIE 9") === -1 && event.buttons === 0 && data.buttonsProperty !== 0 ) {
+			return end(event, data);
+		}
+
+		var handles = data.handles || scope_Handles, positions, state = false,
+			proposal = ((event.calcPoint - data.start) * 100) / data.baseSize,
+			handleNumber = handles[0] === scope_Handles[0] ? 0 : 1, i;
+
+		// Calculate relative positions for the handles.
+		positions = getPositions( proposal, data.positions, handles.length > 1);
+
+		state = setHandle ( handles[0], positions[handleNumber], handles.length === 1 );
+
+		if ( handles.length > 1 ) {
+
+			state = setHandle ( handles[1], positions[handleNumber?0:1], false ) || state;
+
+			if ( state ) {
+				// fire for both handles
+				for ( i = 0; i < data.handles.length; i++ ) {
+					fireEvent('slide', i);
+				}
+			}
+		} else if ( state ) {
+			// Fire for a single handle
+			fireEvent('slide', handleNumber);
+		}
+	}
+
+	// Unbind move events on document, call callbacks.
+	function end ( event, data ) {
+
+		// The handle is no longer active, so remove the class.
+		var active = scope_Base.querySelector( '.' + cssClasses[15] ),
+			handleNumber = data.handles[0] === scope_Handles[0] ? 0 : 1;
+
+		if ( active !== null ) {
+			removeClass(active, cssClasses[15]);
+		}
+
+		// Remove cursor styles and text-selection events bound to the body.
+		if ( event.cursor ) {
+			document.body.style.cursor = '';
+			document.body.removeEventListener('selectstart', document.body.noUiListener);
+		}
+
+		var d = document.documentElement;
+
+		// Unbind the move and end events, which are added on 'start'.
+		d.noUiListeners.forEach(function( c ) {
+			d.removeEventListener(c[0], c[1]);
+		});
+
+		// Remove dragging class.
+		removeClass(scope_Target, cssClasses[12]);
+
+		// Fire the change and set events.
+		fireEvent('set', handleNumber);
+		fireEvent('change', handleNumber);
+
+		// If this is a standard handle movement, fire the end event.
+		if ( data.handleNumber !== undefined ) {
+			fireEvent('end', data.handleNumber);
+		}
+	}
+
+	// Fire 'end' when a mouse or pen leaves the document.
+	function documentLeave ( event, data ) {
+		if ( event.type === "mouseout" && event.target.nodeName === "HTML" && event.relatedTarget === null ){
+			end ( event, data );
+		}
+	}
+
+	// Bind move events on document.
+	function start ( event, data ) {
+
+		var d = document.documentElement;
+
+		// Mark the handle as 'active' so it can be styled.
+		if ( data.handles.length === 1 ) {
+			addClass(data.handles[0].children[0], cssClasses[15]);
+
+			// Support 'disabled' handles
+			if ( data.handles[0].hasAttribute('disabled') ) {
+				return false;
+			}
+		}
+
+		// Fix #551, where a handle gets selected instead of dragged.
+		event.preventDefault();
+
+		// A drag should never propagate up to the 'tap' event.
+		event.stopPropagation();
+
+		// Attach the move and end events.
+		var moveEvent = attach(actions.move, d, move, {
+			start: event.calcPoint,
+			baseSize: baseSize(),
+			pageOffset: event.pageOffset,
+			handles: data.handles,
+			handleNumber: data.handleNumber,
+			buttonsProperty: event.buttons,
+			positions: [
+				scope_Locations[0],
+				scope_Locations[scope_Handles.length - 1]
+			]
+		}), endEvent = attach(actions.end, d, end, {
+			handles: data.handles,
+			handleNumber: data.handleNumber
+		});
+
+		var outEvent = attach("mouseout", d, documentLeave, {
+			handles: data.handles,
+			handleNumber: data.handleNumber
+		});
+
+		d.noUiListeners = moveEvent.concat(endEvent, outEvent);
+
+		// Text selection isn't an issue on touch devices,
+		// so adding cursor styles can be skipped.
+		if ( event.cursor ) {
+
+			// Prevent the 'I' cursor and extend the range-drag cursor.
+			document.body.style.cursor = getComputedStyle(event.target).cursor;
+
+			// Mark the target with a dragging state.
+			if ( scope_Handles.length > 1 ) {
+				addClass(scope_Target, cssClasses[12]);
+			}
+
+			var f = function(){
+				return false;
+			};
+
+			document.body.noUiListener = f;
+
+			// Prevent text selection when dragging the handles.
+			document.body.addEventListener('selectstart', f, false);
+		}
+
+		if ( data.handleNumber !== undefined ) {
+			fireEvent('start', data.handleNumber);
+		}
+	}
+
+	// Move closest handle to tapped location.
+	function tap ( event ) {
+
+		var location = event.calcPoint, total = 0, handleNumber, to;
+
+		// The tap event shouldn't propagate up and cause 'edge' to run.
+		event.stopPropagation();
+
+		// Add up the handle offsets.
+		scope_Handles.forEach(function(a){
+			total += offset(a)[ options.style ];
+		});
+
+		// Find the handle closest to the tapped position.
+		handleNumber = ( location < total/2 || scope_Handles.length === 1 ) ? 0 : 1;
+
+		location -= offset(scope_Base)[ options.style ];
+
+		// Calculate the new position.
+		to = ( location * 100 ) / baseSize();
+
+		if ( !options.events.snap ) {
+			// Flag the slider as it is now in a transitional state.
+			// Transition takes 300 ms, so re-enable the slider afterwards.
+			addClassFor( scope_Target, cssClasses[14], 300 );
+		}
+
+		// Support 'disabled' handles
+		if ( scope_Handles[handleNumber].hasAttribute('disabled') ) {
+			return false;
+		}
+
+		// Find the closest handle and calculate the tapped point.
+		// The set handle to the new position.
+		setHandle( scope_Handles[handleNumber], to );
+
+		fireEvent('slide', handleNumber, true);
+		fireEvent('set', handleNumber, true);
+		fireEvent('change', handleNumber, true);
+
+		if ( options.events.snap ) {
+			start(event, { handles: [scope_Handles[handleNumber]] });
+		}
+	}
+
+	// Fires a 'hover' event for a hovered mouse/pen position.
+	function hover ( event ) {
+
+		var location = event.calcPoint - offset(scope_Base)[ options.style ],
+			to = scope_Spectrum.getStep(( location * 100 ) / baseSize()),
+			value = scope_Spectrum.fromStepping( to );
+
+		Object.keys(scope_Events).forEach(function( targetEvent ) {
+			if ( 'hover' === targetEvent.split('.')[0] ) {
+				scope_Events[targetEvent].forEach(function( callback ) {
+					callback.call( scope_Self, value );
+				});
+			}
+		});
+	}
+
+	// Attach events to several slider parts.
+	function events ( behaviour ) {
+
+		var i, drag;
+
+		// Attach the standard drag event to the handles.
+		if ( !behaviour.fixed ) {
+
+			for ( i = 0; i < scope_Handles.length; i += 1 ) {
+
+				// These events are only bound to the visual handle
+				// element, not the 'real' origin element.
+				attach ( actions.start, scope_Handles[i].children[0], start, {
+					handles: [ scope_Handles[i] ],
+					handleNumber: i
+				});
+			}
+		}
+
+		// Attach the tap event to the slider base.
+		if ( behaviour.tap ) {
+
+			attach ( actions.start, scope_Base, tap, {
+				handles: scope_Handles
+			});
+		}
+
+		// Fire hover events
+		if ( behaviour.hover ) {
+			attach ( actions.move, scope_Base, hover, { hover: true } );
+			for ( i = 0; i < scope_Handles.length; i += 1 ) {
+				['mousemove MSPointerMove pointermove'].forEach(function( eventName ){
+					scope_Handles[i].children[0].addEventListener(eventName, stopPropagation, false);
+				});
+			}
+		}
+
+		// Make the range draggable.
+		if ( behaviour.drag ){
+
+			drag = [scope_Base.querySelector( '.' + cssClasses[7] )];
+			addClass(drag[0], cssClasses[10]);
+
+			// When the range is fixed, the entire range can
+			// be dragged by the handles. The handle in the first
+			// origin will propagate the start event upward,
+			// but it needs to be bound manually on the other.
+			if ( behaviour.fixed ) {
+				drag.push(scope_Handles[(drag[0] === scope_Handles[0] ? 1 : 0)].children[0]);
+			}
+
+			drag.forEach(function( element ) {
+				attach ( actions.start, element, start, {
+					handles: scope_Handles
+				});
+			});
+		}
+	}
+
+
+	// Test suggested values and apply margin, step.
+	function setHandle ( handle, to, noLimitOption ) {
+
+		var trigger = handle !== scope_Handles[0] ? 1 : 0,
+			lowerMargin = scope_Locations[0] + options.margin,
+			upperMargin = scope_Locations[1] - options.margin,
+			lowerLimit = scope_Locations[0] + options.limit,
+			upperLimit = scope_Locations[1] - options.limit;
+
+		// For sliders with multiple handles,
+		// limit movement to the other handle.
+		// Apply the margin option by adding it to the handle positions.
+		if ( scope_Handles.length > 1 ) {
+			to = trigger ? Math.max( to, lowerMargin ) : Math.min( to, upperMargin );
+		}
+
+		// The limit option has the opposite effect, limiting handles to a
+		// maximum distance from another. Limit must be > 0, as otherwise
+		// handles would be unmoveable. 'noLimitOption' is set to 'false'
+		// for the .val() method, except for pass 4/4.
+		if ( noLimitOption !== false && options.limit && scope_Handles.length > 1 ) {
+			to = trigger ? Math.min ( to, lowerLimit ) : Math.max( to, upperLimit );
+		}
+
+		// Handle the step option.
+		to = scope_Spectrum.getStep( to );
+
+		// Limit to 0/100 for .val input, trim anything beyond 7 digits, as
+		// JavaScript has some issues in its floating point implementation.
+		to = limit(parseFloat(to.toFixed(7)));
+
+		// Return false if handle can't move
+		if ( to === scope_Locations[trigger] ) {
+			return false;
+		}
+
+		// Set the handle to the new position.
+		// Use requestAnimationFrame for efficient painting.
+		// No significant effect in Chrome, Edge sees dramatic
+		// performace improvements.
+		if ( window.requestAnimationFrame ) {
+			window.requestAnimationFrame(function(){
+				handle.style[options.style] = to + '%';
+			});
+		} else {
+			handle.style[options.style] = to + '%';
+		}
+
+		// Force proper handle stacking
+		if ( !handle.previousSibling ) {
+			removeClass(handle, cssClasses[17]);
+			if ( to > 50 ) {
+				addClass(handle, cssClasses[17]);
+			}
+		}
+
+		// Update locations.
+		scope_Locations[trigger] = to;
+
+		// Convert the value to the slider stepping/range.
+		scope_Values[trigger] = scope_Spectrum.fromStepping( to );
+
+		fireEvent('update', trigger);
+
+		return true;
+	}
+
+	// Loop values from value method and apply them.
+	function setValues ( count, values ) {
+
+		var i, trigger, to;
+
+		// With the limit option, we'll need another limiting pass.
+		if ( options.limit ) {
+			count += 1;
+		}
+
+		// If there are multiple handles to be set run the setting
+		// mechanism twice for the first handle, to make sure it
+		// can be bounced of the second one properly.
+		for ( i = 0; i < count; i += 1 ) {
+
+			trigger = i%2;
+
+			// Get the current argument from the array.
+			to = values[trigger];
+
+			// Setting with null indicates an 'ignore'.
+			// Inputting 'false' is invalid.
+			if ( to !== null && to !== false ) {
+
+				// If a formatted number was passed, attemt to decode it.
+				if ( typeof to === 'number' ) {
+					to = String(to);
+				}
+
+				to = options.format.from( to );
+
+				// Request an update for all links if the value was invalid.
+				// Do so too if setting the handle fails.
+				if ( to === false || isNaN(to) || setHandle( scope_Handles[trigger], scope_Spectrum.toStepping( to ), i === (3 - options.dir) ) === false ) {
+					fireEvent('update', trigger);
+				}
+			}
+		}
+	}
+
+	// Set the slider value.
+	function valueSet ( input ) {
+
+		var count, values = asArray( input ), i;
+
+		// The RTL settings is implemented by reversing the front-end,
+		// internal mechanisms are the same.
+		if ( options.dir && options.handles > 1 ) {
+			values.reverse();
+		}
+
+		// Animation is optional.
+		// Make sure the initial values where set before using animated placement.
+		if ( options.animate && scope_Locations[0] !== -1 ) {
+			addClassFor( scope_Target, cssClasses[14], 300 );
+		}
+
+		// Determine how often to set the handles.
+		count = scope_Handles.length > 1 ? 3 : 1;
+
+		if ( values.length === 1 ) {
+			count = 1;
+		}
+
+		setValues ( count, values );
+
+		// Fire the 'set' event for both handles.
+		for ( i = 0; i < scope_Handles.length; i++ ) {
+			fireEvent('set', i);
+		}
+	}
+
+	// Get the slider value.
+	function valueGet ( ) {
+
+		var i, retour = [];
+
+		// Get the value from all handles.
+		for ( i = 0; i < options.handles; i += 1 ){
+			retour[i] = options.format.to( scope_Values[i] );
+		}
+
+		return inSliderOrder( retour );
+	}
+
+	// Removes classes from the root and empties it.
+	function destroy ( ) {
+		cssClasses.forEach(function(cls){
+			if ( !cls ) { return; } // Ignore empty classes
+			removeClass(scope_Target, cls);
+		});
+		scope_Target.innerHTML = '';
+		delete scope_Target.noUiSlider;
+	}
+
+	// Get the current step size for the slider.
+	function getCurrentStep ( ) {
+
+		// Check all locations, map them to their stepping point.
+		// Get the step point, then find it in the input list.
+		var retour = scope_Locations.map(function( location, index ){
+
+			var step = scope_Spectrum.getApplicableStep( location ),
+
+				// As per #391, the comparison for the decrement step can have some rounding issues.
+				// Round the value to the precision used in the step.
+				stepDecimals = countDecimals(String(step[2])),
+
+				// Get the current numeric value
+				value = scope_Values[index],
+
+				// To move the slider 'one step up', the current step value needs to be added.
+				// Use null if we are at the maximum slider value.
+				increment = location === 100 ? null : step[2],
+
+				// Going 'one step down' might put the slider in a different sub-range, so we
+				// need to switch between the current or the previous step.
+				prev = Number((value - step[2]).toFixed(stepDecimals)),
+
+				// If the value fits the step, return the current step value. Otherwise, use the
+				// previous step. Return null if the slider is at its minimum value.
+				decrement = location === 0 ? null : (prev >= step[1]) ? step[2] : (step[0] || false);
+
+			return [decrement, increment];
+		});
+
+		// Return values in the proper order.
+		return inSliderOrder( retour );
+	}
+
+	// Attach an event to this slider, possibly including a namespace
+	function bindEvent ( namespacedEvent, callback ) {
+		scope_Events[namespacedEvent] = scope_Events[namespacedEvent] || [];
+		scope_Events[namespacedEvent].push(callback);
+
+		// If the event bound is 'update,' fire it immediately for all handles.
+		if ( namespacedEvent.split('.')[0] === 'update' ) {
+			scope_Handles.forEach(function(a, index){
+				fireEvent('update', index);
+			});
+		}
+	}
+
+	// Undo attachment of event
+	function removeEvent ( namespacedEvent ) {
+
+		var event = namespacedEvent.split('.')[0],
+			namespace = namespacedEvent.substring(event.length);
+
+		Object.keys(scope_Events).forEach(function( bind ){
+
+			var tEvent = bind.split('.')[0],
+				tNamespace = bind.substring(tEvent.length);
+
+			if ( (!event || event === tEvent) && (!namespace || namespace === tNamespace) ) {
+				delete scope_Events[bind];
+			}
+		});
+	}
+
+	// Updateable: margin, limit, step, range, animate, snap
+	function updateOptions ( optionsToUpdate ) {
+
+		var v = valueGet(), i, newOptions = testOptions({
+			start: [0, 0],
+			margin: optionsToUpdate.margin,
+			limit: optionsToUpdate.limit,
+			step: optionsToUpdate.step,
+			range: optionsToUpdate.range,
+			animate: optionsToUpdate.animate,
+			snap: optionsToUpdate.snap === undefined ? options.snap : optionsToUpdate.snap
+		});
+
+		['margin', 'limit', 'step', 'range', 'animate'].forEach(function(name){
+			if ( optionsToUpdate[name] !== undefined ) {
+				options[name] = optionsToUpdate[name];
+			}
+		});
+
+		scope_Spectrum = newOptions.spectrum;
+
+		// Invalidate the current positioning so valueSet forces an update.
+		scope_Locations = [-1, -1];
+		valueSet(v);
+
+		for ( i = 0; i < scope_Handles.length; i++ ) {
+			fireEvent('update', i);
+		}
+	}
+
+
+	// Throw an error if the slider was already initialized.
+	if ( scope_Target.noUiSlider ) {
+		throw new Error('Slider was already initialized.');
+	}
+
+	// Create the base element, initialise HTML and set classes.
+	// Add handles and links.
+	scope_Base = addSlider( options.dir, options.ort, scope_Target );
+	scope_Handles = addHandles( options.handles, options.dir, scope_Base );
+
+	// Set the connect classes.
+	addConnection ( options.connect, scope_Target, scope_Handles );
+
+	if ( options.pips ) {
+		pips(options.pips);
+	}
+
+	if ( options.tooltips ) {
+		tooltips();
+	}
+
+	scope_Self = {
+		destroy: destroy,
+		steps: getCurrentStep,
+		on: bindEvent,
+		off: removeEvent,
+		get: valueGet,
+		set: valueSet,
+		updateOptions: updateOptions
+	};
+
+	// Attach user events.
+	events( options.events );
+
+	return scope_Self;
+
+}
+
+
+	// Run the standard initializer
+	function initialize ( target, originalOptions ) {
+
+		if ( !target.nodeName ) {
+			throw new Error('noUiSlider.create requires a single element.');
+		}
+
+		// Test the options and create the slider environment;
+		var options = testOptions( originalOptions, target ),
+			slider = closure( target, options );
+
+		// Use the public value method to set the start values.
+		slider.set(options.start);
+
+		target.noUiSlider = slider;
+		return slider;
+	}
+
+	// Use an object instead of a function for future expansibility;
+	return {
+		create: initialize
+	};
+
+}));
