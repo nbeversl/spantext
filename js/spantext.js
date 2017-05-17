@@ -1,4 +1,4 @@
-/* <Span>Text - version 1.6.1
+/* <Span>Text - version 1.6.5
 *
 * May, 2017
 */
